@@ -7,7 +7,7 @@ export default function Index() {
     <>
       <Header />
 
-      <main className=''>
+      <main className='font-abc'>
 
         {/* Ilmu */}
         <div class="container flex flex-col justify-center mx-auto pb-24 mt-10 pt-10 px-20 lg:flex-row">
@@ -36,23 +36,23 @@ export default function Index() {
             </h1>
           </div>
           <div class="container justify-center mx-auto items-center text-center py-10 px-16">
-            <div class="inline-flex gap-[70px] items-center justify-center text-center">
-              <div class="py-[14px] px-[25px] border-2 items-center rounded-2xl bg-white">
+            <div class="inline-flex gap-[20px] items-center justify-center text-center">
+              <div class="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
                 <img src="./asset/kurikulum.png" alt="" class="mb-5 items-center justify-center pl-20" />
                 <a href="" class="text-xl font-bold text-center text-[#16215D]">Kurikulum Terbaru</a>
-                <ul className='text-center w-64 text-lg mt-2'>Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru</ul>
+                <ul className='text-center w-64 text-base mb-2 mt-2'>Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru</ul>
               </div>
 
-              <div class="py-[14px] px-[25px] border-2 items-center rounded-2xl bg-white">
+              <div class="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
                 <img src="./asset/belajar.png" alt="" class="mb-5 items-center justify-center pl-20" />
                 <a href="" class="text-xl font-bold text-center text-[#16215D]">Efektifitas Waktu Belajar</a>
-                <ul className='text-center w-64 text-lg mt-2'>Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran</ul>
+                <ul className='text-center w-64 text-base mb-2 mt-2'>Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran</ul>
               </div>
 
-              <div class="py-[14px] px-[25px] border-2 items-center rounded-2xl bg-white">
+              <div class="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
                 <img src="./asset/bakat.png" alt="" class="mb-5 items-center pl-20" />
                 <a href="" class="text-xl font-bold text-center text-[#16215D]">Penyaluran Bakat & Minat</a>
-                <ul className='text-center w-64 text-lg mt-2'>Berbagai kegiatan akademik maupun non akademik untuk mendukung bakat minat</ul>
+                <ul className='text-center w-64 text-base mb-2 mt-2'>Berbagai kegiatan akademik maupun non akademik untuk mendukung bakat minat</ul>
               </div>
 
             </div>
@@ -63,7 +63,7 @@ export default function Index() {
               <img class="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
             </div>
 
-            <div class="w-[550px] h-[502px] pr-[50px] pt-[86px] mt-[16px] flex-col items-center justify-center pb-10 text-justify ml-[45px]">
+            <div class="w-[550px] h-[502px] pr-[30px] pt-[46px] mt-[16px] flex-col items-center justify-center pb-10 text-justify ml-[40px]">
               <div class="container flex flex-col justify-center mx-auto pr-6 mt-2 pt-8">
                 <h1 class="font-bold leadi text-[40px] py-4 pr-2 text-white">
                   Tentang Kami
@@ -115,18 +115,15 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Galeri */}
+        {/* Artikel Dokumentasi Sekolah */}
         <div class="font-bold leadi text-[40px] pr-60 pt-24 text-[#16215D] ml-[80px]">Artikel</div>
-        <div class="container flex flex-col justify-center mx-auto lg:px-20 lg:flex-row lg:justify-between text-3xl font-bold sm:text-3xl pr-6 rounded-xl">
+        <div class="container flex flex-col justify-center mx-auto lg:px-20 lg:flex-row lg:justify-between text-3xl font-bold sm:text-3xl rounded-xl">
           <h1 class="leadi text-xl py-4 font-medium text-[#16215D]">
             Dokumentasi Sekolah
           </h1>
-          <div class="w-[100px] h-[100px] text-sm flex-col items-center text-end text-white pt-4">
-            <p class="p-2 pr-2 pl-2 bg-[#16215D] rounded-[8px]">Lihat Semua</p>
+          <div class="w-[110px] h-[100px] text-sm flex-col items-center text-end text-white pt-4">
+            <p class="p-2 bg-[#16215D] rounded-[8px]">Lihat Semua</p>
           </div>
-          {/* <div class="flex flex-col sm:items-center sm:justify-center sm:flex-row sm:space-x-4 lg:justify-start">
-                <a rel="" href="#" class="px-8 py-2 text-sm bg-[#619AEF] text-white rounded-[8px] border-gray-100 pt-14 mr-[25px]">Daftar Sekarang</a>
-              </div> */}
         </div>
         <div class="container justify-center lg:flex-row">
           <div class="inline-flex pb-[24px] gap-[32px] lg:px-16 ml-2">

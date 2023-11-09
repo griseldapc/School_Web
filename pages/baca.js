@@ -8,6 +8,7 @@ export default function Baca() {
             <main>
                 <Header />
 
+
                 <div class="flex mt-[50px] items-center justify-center flex-col">
                     <div class=" rounded-full p-[12px]">
                         <img src="./asset/kelas.png" alt="" class="w-[1100px] h-[688px]" />

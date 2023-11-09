@@ -5,11 +5,15 @@ import Footer from "../components/footer";
 export default function Galeri() {
     return (
         <>
-            <main>
+            <main className="font-abc">
                 <Header />
 
+                <div class="pt-8 text-center text-gray-800">
+                    <h1 class="font-bold leadi text-[40px] pr-2 text-center items-center justify-center text-[#16215D]">Galeri</h1>
+                </div>
+
                 {/* Hero */}
-                <div class="container flex flex-col justify-center mx-auto pb-24 mt-10 pt-10 px-20 lg:flex-row">
+                <div class="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
                     <div class="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
                         <div class="w-[1100px] flex-col justify-end items-center inline-flex">
                             <img class="w-[500px] h-[336.13px]" src="./asset/galeri.png" />
@@ -104,6 +108,7 @@ export default function Galeri() {
                             <img src="./asset/dokum/12.png" alt="" class="w-full h-[280px]" />
                             <div class="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar & Bermain</div>
                         </div>
+
                     </div>
                 </div>
 

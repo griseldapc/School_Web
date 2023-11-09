@@ -15,10 +15,10 @@ export default function Footer (){
             <p class="pb-3 text-lg font-medium">Informasi</p>
             <ul>
                 <li>
-                    <a rel="" href="berita.js" class="text-sm">Artikel</a>
+                    <a rel="" href="/artikel" class="text-sm">Artikel</a>
                 </li>
                 <li>
-                    <a rel="" href="galeri.js" class="text-sm">Galeri</a>
+                    <a rel="" href="/galeri" class="text-sm">Galeri</a>
                 </li>
             </ul>
         </div>
@@ -26,10 +26,10 @@ export default function Footer (){
             <p class="pb-3 text-lg font-medium">Tentang</p>
             <ul>
                 <li>
-                    <a rel="" href="tentang_kita.js" class="text-sm">Tentang Kami</a>
+                    <a rel="" href="/tentang_kita" class="text-sm">Tentang Kami</a>
                 </li>
                 <li>
-                    <a rel="" href="kontak.js" class="text-sm">Hubungi Kami</a>
+                    <a rel="" href="/kontak" class="text-sm">Hubungi Kami</a>
                 </li>
             </ul>
         </div>
@@ -51,7 +51,7 @@ export default function Footer (){
         <li>
             <div class="flex items-center">
                 <img src="../asset/ig.png" class="mr-2"/>
-                <a rel="" href="#" class="text-sm">SMK Telkom Malang</a>
+                <a rel="" href="https://www.instagram.com/smktelkommalang/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="text-sm">SMK Telkom Malang</a>
             </div>
         </li>
     </ul>
