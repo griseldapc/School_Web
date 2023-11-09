@@ -12,19 +12,19 @@ export default function Header (){
             </a>
             <ul class="items-stretch hidden space-x-3 lg:flex bg-transparent">
                 <li class="flex">
-                    <a rel="" href="#" class="flex items-center px-4 -mb-1 text-[#30396E] font-bold font-[16px]">Beranda</a>
+                    <a rel="" href="/" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Beranda</a>
                 </li>
                 <li class="flex">
-                    <a rel="" href="tentang_kita.html" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Tentang Kita</a>
+                    <a rel="" href="/tentang_kita" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Tentang Kita</a>
                 </li>
                 <li class="flex">
-                    <a rel="" href="berita.html" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Berita</a>
+                    <a rel="" href="/artikel" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Artikel</a>
                 </li>
                 <li class="flex">
-                    <a rel="" href="galeri.html" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Galeri</a>
+                    <a rel="" href="/galeri" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Galeri</a>
                 </li>
                 <li class="flex">
-                    <a rel="" href="kontak.html" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Kontak</a>
+                    <a rel="" href="/kontak" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Kontak</a>
                 </li>
             </ul>
             <div class="items-center flex-shrink-0 hidden lg:flex">
