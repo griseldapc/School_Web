@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Daftar from "../components/daftar";
 
 
 export default function Tentang_kita() {
@@ -11,13 +12,16 @@ export default function Tentang_kita() {
       <main className='font-abc'>
 
         {/* Hero */}
-        <div className="container flex flex-col justify-center mx-auto pb-24 mt-10 pt-10 px-20 lg:flex-row">
+        <div className="container flex flex-col justify-center mx-auto pb-24 mt-24 pt-16 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
-            <div className="w-[1100px] flex-col justify-end items-center inline-flex">
-              <img className="w-[500px] h-[336.13px]" src="./asset/g6.png" />
+            <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
+              <img className="w-[550px] h-[360.13px] relative z-10" src="./asset/g6.png" />
             </div>
           </div>
         </div>
+
+        <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+        <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
 
         {/* Video */}
         <div className="py-8 text-center text-gray-800">
@@ -92,7 +96,7 @@ export default function Tentang_kita() {
             Daftar Anggota Guru & Staff Sekolah Ini
           </h1>
           <div className="w-[110px] h-[100px] text-sm flex-col items-center text-end text-white pt-4">
-            <p className="p-2 bg-[#16215D] rounded-[8px]">Lihat Semua</p>
+            <p className="p-2 bg-[#619AEF] text-white hover:bg-[#16215D] rounded-[8px]">Lihat Semua</p>
           </div>
         </div>
         <div className="inline-flex gap-[10px] ml-24">
@@ -135,7 +139,7 @@ export default function Tentang_kita() {
         
 
         {/* Daftar */}
-        <div className="container flex flex-col lg:flex-row ml-[70px] mr-[940px] bg-gradient-to-b from-[#3871D0] to-[#58C6EF] w-[1120px] rounded-[24px] pt-5 mt-28">
+        {/* <div className="container flex flex-col lg:flex-row ml-[70px] mr-[940px] bg-gradient-to-b from-[#3871D0] to-[#58C6EF] w-[1120px] rounded-[24px] pt-5 mt-28">
           <div className="w-[600px] h-[202px] pt-[56px] ml-[75px]">
             <div className="container mb-8">
               <h1 className="font-bold leadi text-5xl text-white">
@@ -145,13 +149,15 @@ export default function Tentang_kita() {
             <p className="text-lg sm:mb-5 text-white mt-2">Jangan sampai melewatkan kesempatan untuk mendaftar, kami senantiasa menunggu kehadiran anak anda untuk segera belajar bersama kami.
             </p>
             <div className="flex flex-col sm:items-center sm:justify-center sm:flex-row sm:space-x-4 lg:justify-start">
-              <a rel="" href="#" className="px-8 py-2 text-sm bg-[#FFFF] text-[#619AEF] rounded-[8px] border-gray-100">Daftar Sekarang</a>
+              <a rel="" href="#" className="px-8 py-2 text-sm bg-[#FFFF] text-[#619AEF] rounded-[8px] border-gray-100 hover:bg-[#16215D] hover:text-white">Daftar Sekarang</a>
             </div>
           </div>
           <div className="w-[400px] h-[352px] flex-col justify-center inline-flex">
             <img className="" src="./asset/rafiki3.png" />
           </div>
-        </div>
+        </div> */}
+        <Daftar />
+
         <Footer />
       </main>
     </>

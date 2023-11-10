@@ -8,18 +8,21 @@ export default function Kontak() {
             <main className="font-abc">
                 <Header />
 
-                <div className="pt-8 text-center text-gray-800">
+                <div className="pt-28 text-center text-gray-800">
                     <h1 className="font-bold leadi text-[40px] pr-2 text-center items-center justify-center text-[#16215D]">Hubungi Kami</h1>
                 </div>
 
                 {/* Hero */}
                 <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
                     <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
-                        <div className="w-[1100px] flex-col justify-end items-center inline-flex">
-                            <img className="w-[500px] h-[336.13px]" src="./asset/kontak.png" />
+                        <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
+                            <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/kontak.png" />
                         </div>
                     </div>
                 </div>
+
+                <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
+                <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
 
                 <div className="py-8 text-center text-gray-800">
                     <h1 className="font-bold leadi text-[40px] py-4 pr-2 text-center items-center justify-center text-[#16215D]">Kontak Kami</h1>

@@ -11,13 +11,15 @@ export default function Navbar() {
     }
 
     return (
-        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-12 font-abc">
+        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-10 px-12 font-abc">
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
                     <Link href='/' onClick={handleSmallerScreenNavigation}>
                     <img src="./asset/Vector (1).png" alt=""></img>
                     </Link>
                 </div>
+
+                <img className="absolute z-0  pt-20 w-32 left-5 pr-6 mr-40" src='./asset/circle.png' />
 
                 {/* large screen navigation */}
                 <ul className="hidden md:flex  text-lg lg:text-[16px] text-[#30396E]">
@@ -27,7 +29,7 @@ export default function Navbar() {
                     </li>
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
-                        <Link href="/tentang_kita">Tentang Kami</Link>
+                        <Link href="/tentang_kami">Tentang Kami</Link>
                     </li>
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
@@ -55,7 +57,7 @@ export default function Navbar() {
                 {/* onClick change the icons */}
                 <div onClick={handleSmallerScreenNavigation} className="flex md:hidden">
                     {menuIcon ?
-                        (<AiOutlineClose size={30} className='text-[#30396E]' />) : (<AiOutlineMenu size={25} className='text-[#30396E]' />)}
+                        (<AiOutlineClose size={25} className='text-[#30396E]' />) : (<AiOutlineMenu size={25} className='text-[#30396E]' />)}
                 </div>
 
                 {/* smaller screens - navbar */}

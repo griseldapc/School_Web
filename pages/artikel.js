@@ -8,21 +8,24 @@ export default function Artikel(){
     <main className="font-abc">
         <Header/>
 
-        <div className="pt-8 text-center text-gray-800">
+        <div className="pt-28 text-center text-gray-800">
                     <h1 className="font-bold leadi text-[40px] pr-2 text-center items-center justify-center text-[#16215D]">Artikel</h1>
                 </div>
 
         {/* Hero */}
         <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
-            <div className="w-[1100px] flex-col justify-end items-center inline-flex">
-              <img className="w-[500px] h-[336.13px]" src="./asset/rafiki5.png" />
+            <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
+              <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/rafiki5.png" />
             </div>
           </div>
         </div>
 
+        <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+        <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
 
-    <div className="container flex flex-col lg:flex-row mb-16 border-[#54BAEB] border-2 ml-20 rounded-2xl w-[1110px]">
+{/* Content */}
+    <div className="container flex flex-col lg:flex-row mb-16 border-[#54BAEB] border-2 ml-20 rounded-2xl w-[1110px] relative z-10">
             <div className="w-[500px] h-[382px] pt-[42px] flex-col justify-end items-center inline-flex pl-12">
               <img className=" h-[400px]" src="./asset/kelas.png" />
             </div>
@@ -35,7 +38,7 @@ export default function Artikel(){
               </div>
               <h1 className="text-lg sm:mb-2">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman sekelas saya. begitupun sebagian besar orang tua, mimpi mereka adalah melihat anaknya kembali ke aktivitas sekolah secara langsung. Orang tua selama ini banyak yang mengaku lelah karena anak-anaknya selama pandemi lebih banyak menghabiskan waktu di. . . 
               </h1>
-              <a rel="" href="/baca" className="text-sm text-[#3362CC] font-semibold">Read More...</a>
+              <a rel="" href="/baca" className="text-sm text-[#3362CC] font-semibold hover:text-[#619AEF]">Read More...</a>
             </div>
             </div>
 
@@ -120,7 +123,7 @@ export default function Artikel(){
       <img src="./asset/ran.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
-        <p className=" py-1 text-base font-bold text-[#16215D]">Mewarnai Membantu Meningkatkan Kreativitas Anak?</p>
+        <p className=" py-1 text-base font-bold text-[#16215D]">Mewarnai Meningkatkan Kreativitas Anak?</p>
         <a className="py-1 text-sm">Banyak kegiatan bisa dilakukan di rumah dan disekolah untuk meningkatkan kreativitas anak. Banyak pendapaf diluar sana bahwa  . . .</a>
         <ul className="text-sm py-2 text-[#3362CC] font-semibold">Baca selengkapnya</ul>
     </div>

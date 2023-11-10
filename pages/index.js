@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Daftar from '../components/daftar';
 
 export default function Index() {
   return (
@@ -8,24 +9,24 @@ export default function Index() {
       <Header />
 
       <main className='font-abc'>
-
+      <img className="absolute z-0 pt-16 w-32 left-10 pr-6 mr-40" src='./asset/circle.png' />
         {/* Ilmu */}
-        <div className="container flex flex-col justify-center mx-auto pb-24 mt-10 pt-5 px-20 lg:flex-row">
+        <div className="container flex flex-col justify-center mx-auto pb-24 mt-20 pt-14 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
             <div className="flex flex-col text-center rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left pt-6 pl-3">
-              <h1 className="font-bold leadi text-[40px] py-6 text-[#16215D]">
+              <h1 className="font-bold leadi text-[40px] py-6 text-[#16215D] relative z-5">
                 Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
               </h1>
               <p className="text-lg sm:mb-5 text-gray-500">jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat.
               </p>
               <div className="flex flex-col sm:items-center sm:justify-center sm:flex-row sm:space-x-4 lg:justify-start">
-                <a rel="" href="#" className="px-8 py-2 text-sm bg-[#619AEF] text-white rounded-[8px] border-gray-100">Daftar Sekarang</a>
+                <a rel="" href="#" className="px-8 py-2 text-sm bg-[#619AEF] text-white rounded-[8px] border-gray-100 hover:bg-[#16215D]">Daftar Sekarang</a>
               </div>
             </div>
             <div className="relative w-[1100px] h-[429px] pt-[96px] flex-col justify-end items-center inline-flex">
-    <img className="relative z-10" src="./asset/rafiki1.png" />
-</div>
-
+              <img className="relative z-10" src="./asset/rafiki1.png" />
+            </div>
+            <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
           </div>
         </div>
 
@@ -116,14 +117,14 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Artikel Dokumentasi Sekolah */}
+        {/* Galeri*/}
         <div className="font-bold leadi text-[40px] pr-60 pt-24 text-[#16215D] ml-[80px]">Artikel</div>
         <div className="container flex flex-col justify-center mx-auto lg:px-20 lg:flex-row lg:justify-between text-3xl font-bold sm:text-3xl rounded-xl">
           <h1 className="leadi text-xl py-4 font-medium text-[#16215D]">
             Dokumentasi Sekolah
           </h1>
           <div className="w-[110px] h-[100px] text-sm flex-col items-center text-end text-white pt-4">
-            <p className="p-2 bg-[#16215D] rounded-[8px]">Lihat Semua</p>
+            <p className="p-2 bg-[#619AEF] text-white hover:bg-[#16215D] rounded-[8px]">Lihat Semua</p>
           </div>
         </div>
         <div className="container justify-center lg:flex-row">
@@ -147,23 +148,9 @@ export default function Index() {
         </div>
 
         {/* Daftar */}
-        <div className="container flex flex-col lg:flex-row ml-[70px] mr-[940px] bg-gradient-to-b from-[#3871D0] to-[#58C6EF] w-[1120px] rounded-[24px] pt-5 mt-28">
-          <div className="w-[600px] h-[202px] pt-[56px] ml-[75px]">
-            <div className="container mb-8">
-              <h1 className="font-bold leadi text-5xl text-white">
-                Daftar Sekarang Juga !
-              </h1>
-            </div>
-            <p className="text-lg sm:mb-5 text-white mt-2">Jangan sampai melewatkan kesempatan untuk mendaftar, kami senantiasa menunggu kehadiran anak anda untuk segera belajar bersama kami.
-            </p>
-            <div className="flex flex-col sm:items-center sm:justify-center sm:flex-row sm:space-x-4 lg:justify-start">
-              <a rel="" href="#" className="px-8 py-2 text-sm bg-[#FFFF] text-[#619AEF] rounded-[8px] border-gray-100">Daftar Sekarang</a>
-            </div>
-          </div>
-          <div className="w-[400px] h-[352px] flex-col justify-center inline-flex">
-            <img className="" src="./asset/rafiki3.png" />
-          </div>
-        </div>
+        <Daftar />
+
+
         <Footer />
       </main>
     </>
