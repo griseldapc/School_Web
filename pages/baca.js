@@ -9,21 +9,21 @@ export default function Baca() {
                 <Header />
 
 
-                <div class="flex mt-[50px] items-center justify-center flex-col">
-                    <div class=" rounded-full p-[12px]">
-                        <img src="./asset/kelas.png" alt="" class="w-[1100px] h-[688px]" />
+                <div className="flex mt-[50px] items-center justify-center flex-col">
+                    <div className=" rounded-full p-[12px]">
+                        <img src="./asset/kelas.png" alt="" className="w-[1100px] h-[688px]" />
                     </div>
                 </div>
                 <div className="text-justify">
-                    <h1 class=" text-[24px] text-[#619AEF] pl-[70px] pt-20">12 Desember 2020</h1>
+                    <h1 className=" text-[24px] text-[#619AEF] pl-[70px] pt-20">12 Desember 2020</h1>
 
-                    <h1 class=" text-[50px] font-bold leadi py-8 lg:max-w-full xl:max-w-full lg:text-left text-[#16215D] pl-16">
+                    <h1 className=" text-[50px] font-bold leadi py-8 lg:max-w-full xl:max-w-full lg:text-left text-[#16215D] pl-16">
                         Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
                     </h1>
 
-                    <h1 class="text-[24px] pl-16">Penulis : Shinta A.P</h1>
+                    <h1 className="text-[24px] pl-16">Penulis : Shinta A.P</h1>
 
-                    <p class="text-[20px] max-w-[1200px] pl-16 pt-5">
+                    <p className="text-[20px] max-w-[1200px] pl-16 pt-5">
                         Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman sekelas saya. begitupun sebagian besar orang tua, mimpi mereka adalah melihat anaknya kembali ke aktivitas sekolah secara langsung. Orang tua selama ini banyak yang mengaku lelah karena anak-anaknya selama pandemi lebih banyak menghabiskan waktu di depan layar gawainya bukan hanya untuk belajar namun juga untuk bermain game. Belum lagi harus menemani dan membantu anak-anak belajar sementara pekerjaan di rumah tidaklah sedikit.
                     
                         <h1 className="pt-5">

@@ -1,38 +1,46 @@
+import Link from "next/link";
 import React from "react";
 
-export default function Header (){
-    return(
+export default function Header() {
+    return (
         <>
-    <main className="font-abc">
-        <div class="container flex justify-between mx-auto pt-[20px] pb-[0px] font-[Poppins] ">
-            <a rel="" href="#" aria-label="Back to homepage" class="flex items-center p-2 ml-16">
-                <div class="container mx-auto">
-                    <img src="./asset/Vector (1).png" alt=""></img>
-                </div>
-            </a>
-            <ul class="items-stretch hidden space-x-3 lg:flex bg-transparent">
-            <li class="flex">
-    <a rel="" href="/" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px] active:text-bold">Beranda</a>
-</li>
+            <main className="font-abc">
+                <div className="container flex justify-between mx-auto pt-[20px] font-[Poppins] ">
+                    <a href="#" aria-label="Back to homepage" className="flex items-center p-2 ml-16 relative z-10">
+                        <div className="container mx-auto">
+                            <img src="./asset/Vector (1).png" alt=""></img>
+                        </div>
+                    </a>
 
-                <li class="flex">
-                    <a rel="" href="/tentang_kita" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Tentang Kita</a>
-                </li>
-                <li class="flex">
-                    <a rel="" href="/artikel" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Artikel</a>
-                </li>
-                <li class="flex">
-                    <a rel="" href="/galeri" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Galeri</a>
-                </li>
-                <li class="flex">
-                    <a rel="" href="/kontak" class="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Kontak</a>
-                </li>
-            </ul>
-            <div class="items-center flex-shrink-0 hidden lg:flex">
-                <a rel="" href="#" class="px-8 py-2 text-lg bg-[#619AEF] text-white  rounded-[8px] border-gray-100 pr-6 mr-20 pl-6">PPOB</a>
-            </div>
-        </div>
-    </main>
+                    <img className="pl-6 absolute top-0 z-0 pt-10 w-32" src='./asset/circle.png' />
+
+
+                    <ul className="items-stretch hidden space-x-3 lg:flex bg-transparent z-10">
+                        <li className="flex">
+                            <Link href="/" className="flex items-center px-4 -mb-1 text-[#30396E] font-[16px] active:text-bold">Beranda</Link>
+                        </li>
+
+                        <li className="flex">
+                            <Link href="/tentang_kita" className="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Tentang Kita</Link>
+                        </li>
+                        <li className="flex">
+                            <Link href="/artikel" className="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Artikel</Link>
+                        </li>
+                        <li className="flex">
+                            <Link href="/galeri" className="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Galeri</Link>
+                        </li>
+                        <li className="flex">
+                            <Link href="/kontak" className="flex items-center px-4 -mb-1 text-[#30396E] font-[16px]">Kontak</Link>
+                        </li>
+                    </ul>
+                    <div className="items-center flex-shrink-0 hidden lg:flex relative z-10">
+                        <a href="#" className="px-8 py-2 text-lg bg-[#619AEF] text-white  rounded-[8px] border-gray-100 pr-6 mr-20 pl-6">PPDB</a>
+                    </div>
+
+                    <img className="pl-[725.77px] absolute top-0 z-0" src='./asset/Vector (2).png' />
+
+                </div>
+            </main>
         </>
     )
 }
