@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Image from "next/image";
 
 export default function Galeri() {
     return (
@@ -17,13 +16,13 @@ export default function Galeri() {
                 <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
                     <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
                         <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
-                            <Image className="w-[500px] h-[336.13px] relative z-10" src="./asset/galeri.png" />
+                            <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/galeri.png" />
                         </div>
                     </div>
                 </div>
 
-                <Image className="pt-52 absolute top-0 z-0" src='./asset/Vector (5).png'/>
-                <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+                <img className="pt-52 absolute top-0 z-0" src='./asset/Vector (5).png'/>
+                <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
                 
 
                 {/* Dokumentasi */}
@@ -37,17 +36,17 @@ export default function Galeri() {
                     <div className="inline-flex gap-[32px] lg:px-28 items-center justify-center ">
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/1.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/1.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Ruang Kelas</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/2.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/2.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar Mengajar</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/3.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/3.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Lorong Sekolah</div>
                         </div>
 
@@ -58,17 +57,17 @@ export default function Galeri() {
                     <div className="inline-flex gap-[32px] lg:px-28 items-center justify-center ">
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/4.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/4.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Kelas Bahasa Inggris</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/5.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/5.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Karya Murid</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/6.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/6.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Tamasya Sekolah</div>
                         </div>
 
@@ -79,17 +78,17 @@ export default function Galeri() {
                     <div className="inline-flex gap-[32px] lg:px-28 items-center justify-center ">
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/7.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/7.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Lomba Tarik Tambang</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/8.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/8.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Halaman Sekolah</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/9.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/9.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Pameran Teknologi</div>
                         </div>
 
@@ -100,18 +99,18 @@ export default function Galeri() {
                     <div className="inline-flex gap-[32px] lg:px-28 items-center justify-center ">
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/10.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/10.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar Menggambar</div>
                         </div>
 
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/11.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/11.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Tugas Kelompok</div>
                         </div>
 
                         <div className="relative flex flex-col h-[345px] w-[344px] rounded-[16px] overflow-hidden">
-                            <Image src="./asset/dokum/12.png" alt="" className="w-full h-[280px]" />
+                            <img src="./asset/dokum/12.png" alt="" className="w-full h-[280px]" />
                             <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar & Bermain</div>
                         </div>
 

@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import Image from "next/image";
 
 export default function Navbar() {
 
@@ -15,9 +14,9 @@ export default function Navbar() {
         <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-12 font-abc">
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
-                    <Link href='/' onClick={handleSmallerScreenNavigation}>
-                    <Image src="./asset/Vector (1).png" alt=""></Image>
-                    </Link>
+                    <a href='/' onClick={handleSmallerScreenNavigation}> 
+                    <img src="./asset/Vector (1).png" alt="Description of the img" width="100"/>
+                    </a>
                 </div>
 
                 {/* large screen navigation */}
