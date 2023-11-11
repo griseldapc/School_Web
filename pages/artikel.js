@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Image from "next/image";
 
 export default function Artikel(){
     return(
@@ -17,18 +16,18 @@ export default function Artikel(){
         <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
             <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
-              <Image className="w-[500px] h-[336.13px] relative z-10" src="./asset/rafiki5.png" />
+              <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/rafiki5.png" alt=""/>
             </div>
           </div>
         </div>
 
-        <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
-        <Image className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
+        <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+        <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
 
 {/* Content */}
     <div className="container flex flex-col lg:flex-row mb-16 border-[#54BAEB] border-2 ml-20 rounded-2xl w-[1110px] relative z-10">
             <div className="w-[500px] h-[382px] pt-[42px] flex-col justify-end items-center inline-flex pl-12">
-              <Image className=" h-[400px]" src="./asset/kelas.png" />
+              <img className=" h-[400px]" src="./asset/kelas.png" />
             </div>
     <div className="w-[550px] h-[432px] flex-col items-center justify-center pb-10 text-justify ml-4 pt-10">
     <a rel="" className="text-sm text-[#3362CC] font-semibold pt-5 mt-10">12 Desember</a>
@@ -47,7 +46,7 @@ export default function Artikel(){
 {/* Artikel */}
         <div className="inline-flex gap-[30px] lg:px-20 mt-8">
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/ijo.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/ijo.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify  ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Tenik Belajar Cepat Agar Anak Tidak Mudah Bosan</p>
@@ -57,7 +56,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/zaki.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/zaki.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Metode Tanya Jawab Untuk Evaluasi Materi  Di Sekolah</p>
@@ -67,7 +66,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/ggg.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/ggg.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Berlibur Bersama Agar Anak Tidak Jenuh</p>
@@ -79,7 +78,7 @@ export default function Artikel(){
 
   <div className="inline-flex gap-[30px] lg:px-20 mt-8">
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/bljr.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/bljr.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify  ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
@@ -89,7 +88,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/play.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/play.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Permainan Yang Bagus Untuk Perkembangan Anak</p>
@@ -99,7 +98,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/fam.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/fam.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Di Sekolah Belajar, Di Rumah pun Apakah Harus Belajar?</p>
@@ -111,7 +110,7 @@ export default function Artikel(){
 
   <div className="inline-flex gap-[30px] lg:px-20 mt-8">
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/covid.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/covid.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify  ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Tetap Menjaga Kesehatan Anak Selama Di Sekolah</p>
@@ -121,7 +120,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/ran.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/ran.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify ">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Mewarnai Meningkatkan Kreativitas Anak?</p>
@@ -131,7 +130,7 @@ export default function Artikel(){
     </div>
 
     <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-      <Image src="./asset/color.png" alt="" className="w-full h-[320px] rounded-xl"/>
+      <img src="./asset/color.png" alt="" className="w-full h-[320px] rounded-xl"/>
       <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify">
         <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
         <p className=" py-1 text-base font-bold text-[#16215D]">Perlukah Belajar Menggambar Dan Mewarnai Di Sekolah?</p>

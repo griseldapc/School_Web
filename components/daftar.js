@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
  export default function Daftar () {
     return (
@@ -18,7 +17,7 @@ import Image from "next/image";
             </div>
           </div>
           <div className="w-[400px] h-[352px] flex-col justify-center inline-flex">
-            <Image className="" src="./asset/rafiki3.png" />
+            <img className="" src="./asset/rafiki3.png" />
           </div>
         </div>
         </main>

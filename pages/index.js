@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Daftar from '../components/daftar';
-import Image from 'next/image';
+
 
 export default function Index() {
   return (
@@ -10,7 +10,7 @@ export default function Index() {
       <Header />
 
       <main className='font-abc'>
-      <Image className="absolute z-0 pt-16 w-32 left-10 pr-6 mr-40" src='./asset/circle.png' />
+      <img className="absolute z-0 pt-16 w-32 left-10 pr-6 mr-40" src='./asset/circle.png' />
         {/* Ilmu */}
         <div className="container flex flex-col justify-center mx-auto pb-24 mt-20 pt-14 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
@@ -25,9 +25,9 @@ export default function Index() {
               </div>
             </div>
             <div className="relative w-[1100px] h-[429px] pt-[96px] flex-col justify-end items-center inline-flex">
-              <Image className="relative z-10" src="./asset/rafiki1.png" />
+              <img className="relative z-10" src="./asset/rafiki1.png" />
             </div>
-            <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+            <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
           </div>
         </div>
 
@@ -41,19 +41,19 @@ export default function Index() {
           <div className="container justify-center mx-auto items-center text-center py-10 px-16">
             <div className="inline-flex gap-[20px] items-center justify-center text-center">
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <Image src="./asset/kurikulum.png" alt="" className="mb-5 items-center justify-center pl-20" />
+                <img src="./asset/kurikulum.png" alt="" className="mb-5 items-center justify-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Kurikulum Terbaru</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru</ul>
               </div>
 
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <Image src="./asset/belajar.png" alt="" className="mb-5 items-center justify-center pl-20" />
+                <img src="./asset/belajar.png" alt="" className="mb-5 items-center justify-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Efektifitas Waktu Belajar</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran</ul>
               </div>
 
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <Image src="./asset/bakat.png" alt="" className="mb-5 items-center pl-20" />
+                <img src="./asset/bakat.png" alt="" className="mb-5 items-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Penyaluran Bakat & Minat</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Berbagai kegiatan akademik maupun non akademik untuk mendukung bakat minat</ul>
               </div>
@@ -63,7 +63,7 @@ export default function Index() {
 
           <div className="container flex flex-col justify-center lg:flex-row mb-16 ">
             <div className="w-[550px] h-[502px] pr-[100px] pt-[50px] flex-col justify-end items-center inline-flex">
-              <Image className="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
+              <img className="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
             </div>
 
             <div className="w-[550px] h-[502px] pr-[30px] pt-[46px] mt-[16px] flex-col items-center justify-center pb-10 text-justify ml-[40px]">
@@ -88,7 +88,7 @@ export default function Index() {
         </div>
         <div className="inline-flex gap-[30px] lg:px-20 mt-8">
           <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <Image src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
+            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
             <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
               <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
               <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
@@ -98,7 +98,7 @@ export default function Index() {
           </div>
 
           <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <Image src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
+            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
             <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
               <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
               <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
@@ -108,7 +108,7 @@ export default function Index() {
           </div>
 
           <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <Image src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
+            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
             <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
               <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
               <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
@@ -131,19 +131,19 @@ export default function Index() {
         <div className="container justify-center lg:flex-row">
           <div className="inline-flex pb-[24px] gap-[32px] lg:px-16 ml-2">
             <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <Image src="./asset/ruang.png" alt="" className="w-full h-[320px]" />
+              <img src="./asset/ruang.png" alt="" className="w-full h-[320px]" />
             </div>
 
             <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <Image src="./asset/ngajar.png" alt="" className="w-full h-[320px]" />
+              <img src="./asset/ngajar.png" alt="" className="w-full h-[320px]" />
             </div>
 
             <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <Image src="./asset/room.png" alt="" className="w-full h-[320px]" />
+              <img src="./asset/room.png" alt="" className="w-full h-[320px]" />
             </div>
 
             <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <Image src="./asset/tas.png" alt="" className="w-full h-[320px]" />
+              <img src="./asset/tas.png" alt="" className="w-full h-[320px]" />
             </div>
           </div>
         </div>

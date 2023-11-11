@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -16,11 +15,11 @@ export default function Navbar() {
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
                     <Link href='/' onClick={handleSmallerScreenNavigation}>
-                    <Image src="./asset/Vector (1).png" alt=""></Image>
+                    <img src="./asset/Vector (1).png" alt=""></img>
                     </Link>
                 </div>
 
-                <Image className="absolute z-0  pt-20 w-32 left-5 pr-6 mr-40" src='./asset/circle.png' />
+                <img className="absolute z-0  pt-20 w-32 left-5 pr-6 mr-40" src='./asset/circle.png' />
 
                 {/* large screen navigation */}
                 <ul className="hidden md:flex  text-lg lg:text-[16px] text-[#30396E]">
