@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import Image from "next/image";
 
 export default function Navbar() {
 

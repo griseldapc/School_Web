@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Berita from "../components/artikel";
+import Image from "next/image";
 
 export default function Artikel() {
   return (
