@@ -39,7 +39,7 @@ export default function Artikel() {
             </div>
             <h1 className="text-lg sm:mb-2">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman sekelas saya. begitupun sebagian besar orang tua, mimpi mereka adalah melihat anaknya kembali ke aktivitas sekolah secara langsung. Orang tua selama ini banyak yang mengaku lelah karena anak-anaknya selama pandemi lebih banyak menghabiskan waktu di. . .
             </h1>
-            <a rel="" href="/baca" className="text-sm text-[#3362CC] font-semibold hover:text-[#619AEF]">Read More...</a>
+            <Link rel="" href="/baca" className="text-sm text-[#3362CC] font-semibold hover:text-[#619AEF]"/>Read More...
           </div>
         </div>
 
