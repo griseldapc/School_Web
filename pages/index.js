@@ -10,7 +10,7 @@ export default function Index() {
       <Header />
 
       <main className='font-abc'>
-      <img className="absolute z-0 pt-16 w-32 left-10 pr-6 mr-40" src='./asset/circle.png' />
+      <img className="absolute z-0 pt-16 lg:w-32 left-10 pr-6 mr-40 md:w-[200px] md:pl-5 md:pr-10" src='./asset/circle.png' />
         {/* Ilmu */}
         <div className="container flex flex-col justify-center mx-auto pb-24 mt-20 pt-14 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
@@ -27,7 +27,7 @@ export default function Index() {
             <div className="relative w-[1100px] h-[429px] pt-[96px] flex-col justify-end items-center inline-flex">
               <img className="relative z-10" src="./asset/rafiki1.png" />
             </div>
-            <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+            <img className="right-0 absolute top-0 z-0 w-[600px] md:pl-60 md:w-[900px] md:pt-20 md:-right-12" src='./asset/Vector (2).png' />
           </div>
         </div>
 

@@ -1,0 +1,73 @@
+[
+    {
+        "image" : "./asset/ijo.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Tenik Belajar Cepat Agar Anak Tidak Mudah Bosan",
+        "deskripsi" : "Menggunakan teknik belajar yang tepat sangatlkah penting agar anak bisa menyerap materi dengan baik namun tetap . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/zaki.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Metode Tanya Jawab Untuk Evaluasi Materi Di Sekolah",
+        "deskripsi" : "Untuk mengetahui seberapa paham anak tentang materi yang diberikan, guru biasa mengadakan sesi tanya jawab agar menyegarkan ingatan  . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/ggg.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Berlibur Bersama Agar Anak Tidak Jenuh",
+        "deskripsi" : "Anak tentunya akanjenuh jika terus menerus belajar, mereka juga perlu berlibur sejenak apalagi bersama dengan teman . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/bljr.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah",
+        "deskripsi" : "Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/play.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Permainan Yang Bagus Untuk Perkembangan Anak",
+        "deskripsi" : "Selain belajar, anak-anak tentunya perlu untuk bermain, namun permainan apasaja kah yang dapat membantu perkembangan . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/fam.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Di Sekolah Belajar, Di Rumah pun Apakah Harus Belajar?",
+        "deskripsi" : "Jika anak merasa dirinya sudah cukup hanya dengan belajar disekolah, kita sebagai orang tua harus bisa memberi . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/covid.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Tetap Menjaga Kesehatan Anak Selama Di Sekolah",
+        "deskripsi" : "Virus dan bakteri tentu ada dimana saja, oleh sebab itu kita perlu memperhatikan kesehatan anak agar tidak mudah tertular . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/ran.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Mewarnai Meningkatkan Kreativitas Anak?",
+        "deskripsi" : "Banyak kegiatan bisa dilakukan di rumah dan disekolah untuk meningkatkan kreativitas anak. Banyak pendapaf diluar sana bahwa  . . .",
+        "baca" : "Baca Selengkapnya"
+    },
+
+    {
+        "image" : "./asset/color.png",
+        "tanggal" : "12 Desember 2020",
+        "judul" : "Perlukah Belajar Menggambar Dan Mewarnai Di Sekolah?",
+        "deskripsi" : "Banyak kegiatan bisa dilakukan di rumah dan disekolah untuk meningkatkan kreativitas anak. Banyak pendapaf diluar sana bahwa . . .",
+        "baca" : "Baca Selengkapnya"
+    }
+]
