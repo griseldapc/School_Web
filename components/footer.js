@@ -16,10 +16,10 @@ export default function Footer (){
             <p className="pb-3 text-lg font-medium">Informasi</p>
             <ul>
                 <li>
-                    <a rel="" href="/artikel" className="text-sm">Artikel</a>
+                    <Link rel="" href="/artikel" className="text-sm"/>Artikel
                 </li>
                 <li>
-                    <a rel="" href="/galeri" className="text-sm">Galeri</a>
+                    <Link rel="" href="/galeri" className="text-sm"/>Galeri
                 </li>
             </ul>
         </div>
@@ -27,10 +27,10 @@ export default function Footer (){
             <p className="pb-3 text-lg font-medium">Tentang</p>
             <ul>
                 <li>
-                    <a rel="" href="/tentang_kita" className="text-sm">Tentang Kami</a>
+                    <Link rel="" href="/tentang_kita" className="text-sm"/>Tentang Kami
                 </li>
                 <li>
-                    <a rel="" href="/kontak" className="text-sm">Hubungi Kami</a>
+                    <Link rel="" href="/kontak" className="text-sm"/>Hubungi Kami
                 </li>
             </ul>
         </div>
@@ -40,19 +40,19 @@ export default function Footer (){
         <li>
             <div className="flex items-center">
                 <Image src="../asset/fb.png" className="mr-2"/>
-                <a rel="" href="#" className="text-sm">SMK Telkom Malang</a>
+                <Link rel="" href="#" className="text-sm"/>SMK Telkom Malang
             </div>
         </li>
         <li>
             <div className="flex items-center">
                 <Image src="../asset/tw.png" className="mr-2"/>
-                <a rel="" href="#" className="text-sm">SMK Telkom Malang</a>
+                <Link rel="" href="#" className="text-sm"/>SMK Telkom Malang
             </div>
         </li>
         <li>
             <div className="flex items-center">
                 <Image src="../asset/ig.png" className="mr-2"/>
-                <a rel="" href="https://www.instagram.com/smktelkommalang/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" className="text-sm">SMK Telkom Malang</a>
+                <Link rel="" href="https://www.instagram.com/smktelkommalang/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" className="text-sm"/>SMK Telkom Malang
             </div>
         </li>
     </ul>
