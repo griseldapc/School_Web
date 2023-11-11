@@ -8,7 +8,7 @@ export default function Footer (){
     <div className="pt-14 grid grid-cols-12">
         <div className=" md:pb-0 md:col-span-6">
                 <div className="container mx-auto">
-                    <img src="./asset/footer.png" alt=""/>
+                    <Image src="./asset/footer.png" alt=""/>
                 </div>
         </div>
         <div className="col-span-2 text-center md:text-left">
@@ -38,19 +38,19 @@ export default function Footer (){
     <ul>
         <li>
             <div className="flex items-center">
-                <img src="../asset/fb.png" className="mr-2"/>
+                <Image src="../asset/fb.png" className="mr-2"/>
                 <a rel="" href="#" className="text-sm">SMK Telkom Malang</a>
             </div>
         </li>
         <li>
             <div className="flex items-center">
-                <img src="../asset/tw.png" className="mr-2"/>
+                <Image src="../asset/tw.png" className="mr-2"/>
                 <a rel="" href="#" className="text-sm">SMK Telkom Malang</a>
             </div>
         </li>
         <li>
             <div className="flex items-center">
-                <img src="../asset/ig.png" className="mr-2"/>
+                <Image src="../asset/ig.png" className="mr-2"/>
                 <a rel="" href="https://www.instagram.com/smktelkommalang/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" className="text-sm">SMK Telkom Malang</a>
             </div>
         </li>

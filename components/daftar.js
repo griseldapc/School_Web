@@ -16,7 +16,7 @@ import React from "react";
             </div>
           </div>
           <div className="w-[400px] h-[352px] flex-col justify-center inline-flex">
-            <img className="" src="./asset/rafiki3.png" />
+            <Image className="" src="./asset/rafiki3.png" />
           </div>
         </div>
         </main>

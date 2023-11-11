@@ -15,13 +15,13 @@ export default function Tentang_kita() {
         <div className="container flex flex-col justify-center mx-auto pb-24 mt-24 pt-16 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
             <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
-              <img className="w-[550px] h-[360.13px] relative z-10" src="./asset/g6.png" />
+              <Image className="w-[550px] h-[360.13px] relative z-10" src="./asset/g6.png" />
             </div>
           </div>
         </div>
 
-        <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
-        <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
+        <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+        <Image className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
 
         {/* Video */}
         <div className="py-8 text-center text-gray-800">
@@ -50,19 +50,19 @@ export default function Tentang_kita() {
           <div className="container justify-center mx-auto items-center text-center py-10 px-16">
             <div className="inline-flex gap-[20px] items-center justify-center text-center">
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/kurikulum.png" alt="" className="mb-5 items-center justify-center pl-20" />
+                <Image src="./asset/kurikulum.png" alt="" className="mb-5 items-center justify-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Kurikulum Terbaru</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru</ul>
               </div>
 
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/belajar.png" alt="" className="mb-5 items-center justify-center pl-20" />
+                <Image src="./asset/belajar.png" alt="" className="mb-5 items-center justify-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Efektifitas Waktu Belajar</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran</ul>
               </div>
 
               <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/bakat.png" alt="" className="mb-5 items-center pl-20" />
+                <Image src="./asset/bakat.png" alt="" className="mb-5 items-center pl-20" />
                 <a href="" className="text-xl font-bold text-center text-[#16215D]">Penyaluran Bakat & Minat</a>
                 <ul className='text-center w-64 text-base mb-2 mt-2'>Berbagai kegiatan akademik maupun non akademik untuk mendukung bakat minat</ul>
               </div>
@@ -72,7 +72,7 @@ export default function Tentang_kita() {
 
           <div className="container flex flex-col justify-center lg:flex-row mb-16 ">
             <div className="w-[550px] h-[502px] pr-[100px] pt-[50px] flex-col justify-end items-center inline-flex">
-              <img className="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
+              <Image className="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
             </div>
 
             <div className="w-[550px] h-[502px] pr-[30px] pt-[46px] mt-[16px] flex-col items-center justify-center pb-10 text-justify ml-[40px]">
@@ -101,7 +101,7 @@ export default function Tentang_kita() {
         </div>
         <div className="inline-flex gap-[10px] ml-24">
           <div className="flex flex-col h-[310px] w-[240px] p-4 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/1.png" alt="" className="w-full h-[220px] rounded-xl"/>
+            <Image src="./asset/1.png" alt="" className="w-full h-[220px] rounded-xl"/>
               <div className=" rounded-b-2xl pt-2 pb-5 text-center">
                   <p className=" text-xl font-bold text-[#16215D]">Jeannete Ong</p>
                     <a className=" text-sm">Kepala Sekolah</a>
@@ -111,7 +111,7 @@ export default function Tentang_kita() {
 
         <div className="inline-flex gap-[10px] ml-10 mt-8">
           <div className="flex flex-col h-[310px] w-[240px] p-4 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/2.png" alt="" className="w-full h-[220px] rounded-xl"/>
+            <Image src="./asset/2.png" alt="" className="w-full h-[220px] rounded-xl"/>
               <div className=" rounded-b-2xl pt-2 pb-5 text-center">
                   <p className=" text-xl font-bold text-[#16215D]">Jhon Smith</p>
                     <a className=" text-sm">Kepala Staff</a>
@@ -120,7 +120,7 @@ export default function Tentang_kita() {
         </div>
         <div className="inline-flex gap-[10px] ml-10 mt-8">
           <div className="flex flex-col h-[310px] w-[240px] p-4 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/3.png" alt="" className="w-full h-[220px] rounded-xl"/>
+            <Image src="./asset/3.png" alt="" className="w-full h-[220px] rounded-xl"/>
               <div className=" rounded-b-2xl pt-2 pb-5 text-center">
                   <p className=" text-xl font-bold text-[#16215D]">Lidya M.P</p>
                     <a className=" text-sm">Guru Matematika</a>
@@ -129,7 +129,7 @@ export default function Tentang_kita() {
         </div>
         <div className="inline-flex gap-[10px] ml-10 mt-8">
           <div className="flex flex-col h-[310px] w-[240px] p-4 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/4.png" alt="" className="w-full h-[220px] rounded-xl"/>
+            <Image src="./asset/4.png" alt="" className="w-full h-[220px] rounded-xl"/>
               <div className=" rounded-b-2xl pt-2 pb-5 text-center">
                   <p className=" text-xl font-bold text-[#16215D]">William</p>
                     <a className=" text-sm">Guru Fisika</a>
@@ -153,7 +153,7 @@ export default function Tentang_kita() {
             </div>
           </div>
           <div className="w-[400px] h-[352px] flex-col justify-center inline-flex">
-            <img className="" src="./asset/rafiki3.png" />
+            <Image className="" src="./asset/rafiki3.png" />
           </div>
         </div> */}
         <Daftar />
