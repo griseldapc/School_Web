@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Daftar from '../components/daftar';
+import Image from 'next/image';
 
 export default function Index() {
   return (
