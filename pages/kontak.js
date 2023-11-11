@@ -16,13 +16,13 @@ export default function Kontak() {
                 <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
                     <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
                         <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
-                            <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/kontak.png" />
+                            <Image className="w-[500px] h-[336.13px] relative z-10" src="./asset/kontak.png" />
                         </div>
                     </div>
                 </div>
 
-                <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
-                <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+                <Image className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png'/>
+                <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
 
                 <div className="py-8 text-center text-gray-800">
                     <h1 className="font-bold leadi text-[40px] py-4 pr-2 text-center items-center justify-center text-[#16215D]">Kontak Kami</h1>
@@ -36,7 +36,7 @@ export default function Kontak() {
 
                             <div className="justify-start items-start gap-2.5 flex">
                                 <div className="w-16 h-16 rounded-full border-2 border-[#54BAEB] flex items-center justify-center">
-                                    <img className="w-10 h-10" src="./asset/phone.png" />
+                                    <Image className="w-10 h-10" src="./asset/phone.png" />
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ export default function Kontak() {
                         <div className="self-stretch p-2 justify-start items-center gap-8 inline-flex">
                             <div className="justify-start items-start gap-2.5 flex">
                                 <div className="w-16 h-16 rounded-full border-2 border-[#54BAEB] flex items-center justify-center">
-                                    <img className="w-10 h-10" src="./asset/mail.png" />
+                                    <Image className="w-10 h-10" src="./asset/mail.png" />
                                 </div>
                             </div>
 
@@ -62,7 +62,7 @@ export default function Kontak() {
                         <div className="self-stretch p-2 justify-start items-center gap-8 inline-flex">
                             <div className="justify-start items-start gap-2.5 flex">
                                 <div className="w-16 h-16 rounded-full border-2 border-[#54BAEB] flex items-center justify-center">
-                                    <img className="w-10 h-10" src="./asset/loc.png" />
+                                    <Image className="w-10 h-10" src="./asset/loc.png" />
                                 </div>
                             </div>
 

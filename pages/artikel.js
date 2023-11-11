@@ -17,18 +17,18 @@ export default function Artikel() {
         <div className="container flex flex-col justify-center mx-auto pb-24 px-20 lg:flex-row">
           <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
             <div className="relative w-[1100px] flex-col justify-end items-center inline-flex">
-              <img className="w-[500px] h-[336.13px] relative z-10" src="./asset/rafiki5.png" alt="" />
+              <Image className="w-[500px] h-[336.13px] relative z-10" src="./asset/rafiki5.png" alt="" />
             </div>
           </div>
         </div>
 
-        <img className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
-        <img className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png' />
+        <Image className="right-0 absolute top-0 z-0 w-[600px]" src='./asset/Vector (2).png' />
+        <Image className="pt-7 absolute top-0 z-0" src='./asset/Vector (3).png' />
 
         {/* Content */}
         <div className="container flex flex-col lg:flex-row mb-16 border-[#54BAEB] border-2 ml-20 rounded-2xl w-[1110px] relative z-10">
           <div className="w-[500px] h-[382px] pt-[42px] flex-col justify-end items-center inline-flex pl-12">
-            <img className=" h-[400px]" src="./asset/kelas.png" />
+            <Image className=" h-[400px]" src="./asset/kelas.png" />
           </div>
           <div className="w-[550px] h-[432px] flex-col items-center justify-center pb-10 text-justify ml-4 pt-10">
             <a rel="" className="text-sm text-[#3362CC] font-semibold pt-5 mt-10">12 Desember</a>

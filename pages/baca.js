@@ -11,7 +11,7 @@ export default function Baca() {
 
                 <div className="flex mt-[50px] items-center justify-center flex-col">
                     <div className=" rounded-full p-[12px]">
-                        <img src="./asset/kelas.png" alt="" className="w-[1100px] h-[688px]" />
+                        <Image src="./asset/kelas.png" alt="" className="w-[1100px] h-[688px]" />
                     </div>
                 </div>
                 <div className="text-justify">

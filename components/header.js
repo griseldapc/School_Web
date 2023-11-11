@@ -15,7 +15,7 @@ export default function Navbar() {
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
                     <Link href='/' onClick={handleSmallerScreenNavigation}>
-                    <img src="./asset/Vector (1).png" alt=""></img>
+                    <Image src="./asset/Vector (1).png" alt=""></Image>
                     </Link>
                 </div>
 

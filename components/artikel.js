@@ -15,7 +15,7 @@ export default  function Berita (){
                 <a key={index} href="#" class="group">
                 
                 <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <img src={item.image} alt="" className="w-full h-[320px] rounded-xl" />
+            <Image src={item.image} alt="" className="w-full h-[320px] rounded-xl" />
             <div className=" rounded-b-2xl pt-5 pb-9 pl-3 text-justify  ">
               <h1 className="font-semibold text-sm text-[#619AEF]">{item.tanggal}</h1>
               <p className=" py-1 text-base font-bold text-[#16215D]">{item.judul}</p>
