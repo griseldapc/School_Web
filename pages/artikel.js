@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Berita from "../components/artikel";
+import Link from "next/link";
 
 export default function Artikel() {
   return (
