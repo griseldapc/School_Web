@@ -8,146 +8,202 @@ export default function Index() {
   return (
     <>
       <Header />
-
       <main className='font-abc'>
-      <img src="./asset/circle.png" alt="Description of the img" width="100"/>
+        <img src="./asset/circle.png" alt="Description of the img" width="100" className='hidden' />
 
         {/* Ilmu */}
-        <div className="container flex flex-col justify-center mx-auto pb-24 mt-4 px-20 lg:flex-row">
-          <div className="container flex flex-col justify-center mx-auto lg:flex-row lg:justify-between">
-            <div className="flex flex-col text-center rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left pt-6 pl-3">
-              <h1 className="font-bold leadi text-[40px] py-6 text-[#16215D] relative z-5">
-                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
+        <section className='flex md:flex-col lg:flex-col md:mt-5 p-5 lg:-mt-5'>
+          <div className='md:flex-row md:flex  md:items-start lg:text-left lg:m-10'>
+            <ul className='my-5 md:pl-5 md:top-0 lg:mt-24'>
+              <h1 className="font-bold text-2xl md:text-3xl lg:text-[42px] py-5 text-[#16215D] mt-20">
+                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik 
               </h1>
-              <p className="text-lg sm:mb-5 text-gray-500">jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat.
+              <p className="text-lg sm:mb-5 text-gray-500 mb-5 lg:text-xl lg:font-medium">Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat.
               </p>
-              <div className="flex flex-col sm:items-center sm:justify-center sm:flex-row sm:space-x-4 lg:justify-start">
-                <a rel="" href="#" className="px-8 py-2 text-sm bg-[#619AEF] text-white rounded-[8px] border-gray-100 hover:bg-[#16215D]">Daftar Sekarang</a>
-              </div>
+                <a rel="" href="#" className="text-sm w-40 h-10 py-2 px-2  bg-[#619AEF] text-white rounded-lg border-gray-100 hover:bg-[#16215D] flex flex-col text-center items-center">Daftar Sekarang</a>
+            </ul>
+            <div className="md:w-full justify-center md:pt-20">
+              <img src="./asset/rafiki1.png"/>
             </div>
-            <div className="relative w-[1100px] h-[429px] pt-[96px] flex-col justify-end items-center inline-flex">
-              <img className="relative z-10" src="./asset/rafiki1.png" />
-            </div>
-            <img className="right-0 absolute top-0 z-0 w-[600px] md:pl-60 md:w-[900px] md:pt-20 md:-right-12" src='./asset/Vector (2).png' />
           </div>
-        </div>
+        </section>
+
 
         {/* Keunggulan */}
-        <div className="py-9 border-2 rounded-tl-[150px] rounded-tr-[150px] rounded-bl-[150px] rounded-br-[150px] bg-gradient-to-b from-[#3871D0] to-[#58C6EF]">
-          <div className="container justify-center mx-auto text-3xl font-bold pr-6 pt-8 pb-4 rounded-xl">
-            <h1 className="font-bold leadi text-[40px] py-4 pr-2 pt-10 text-center items-center justify-center text-white">
-              Keunggulan Sekolah Kami
-            </h1>
-          </div>
-          <div className="container justify-center mx-auto items-center text-center py-10 px-16">
-            <div className="inline-flex gap-[20px] items-center justify-center text-center">
-              <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/kurikulum.png" alt="" className="mb-5 items-center justify-center pl-20" />
-                <a href="" className="text-xl font-bold text-center text-[#16215D]">Kurikulum Terbaru</a>
-                <ul className='text-center w-64 text-base mb-2 mt-2'>Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru</ul>
-              </div>
+        <section className="bg-gradient-to-b from-[#3871D0] to-[#58C6EF] lg:rounded-[250px] rounded-3xl  ">
+          <h1 className="text-white font-semibold text-xl md:text-4xl lg:text-5xl text-center mt-8 pt-10 md:pt-16 lg:pt-20 md:m-10">
+            Keunggulan Sekolah Kami
+          </h1>
 
-              <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/belajar.png" alt="" className="mb-5 items-center justify-center pl-20" />
-                <a href="" className="text-xl font-bold text-center text-[#16215D]">Efektifitas Waktu Belajar</a>
-                <ul className='text-center w-64 text-base mb-2 mt-2'>Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran</ul>
-              </div>
-
-              <div className="py-[14px] px-[45px] border-2 items-center rounded-2xl bg-white">
-                <img src="./asset/bakat.png" alt="" className="mb-5 items-center pl-20" />
-                <a href="" className="text-xl font-bold text-center text-[#16215D]">Penyaluran Bakat & Minat</a>
-                <ul className='text-center w-64 text-base mb-2 mt-2'>Berbagai kegiatan akademik maupun non akademik untuk mendukung bakat minat</ul>
-              </div>
-
-            </div>
-          </div>
-
-          <div className="container flex flex-col justify-center lg:flex-row mb-16 ">
-            <div className="w-[550px] h-[502px] pr-[100px] pt-[50px] flex-col justify-end items-center inline-flex">
-              <img className="w-[400x] h-[600px]" src="./asset/rafiki2.png" />
-            </div>
-
-            <div className="w-[550px] h-[502px] pr-[30px] pt-[46px] mt-[16px] flex-col items-center justify-center pb-10 text-justify ml-[40px]">
-              <div className="container flex flex-col justify-center mx-auto pr-6 mt-2 pt-8">
-                <h1 className="font-bold leadi text-[40px] py-4 pr-2 text-white">
-                  Tentang Kami
+          <div className="text-center sm:p-6 p-10">
+            <ul className="space-y-4 md:space-y-0 md:flex md:gap-5 lg:gap-8 lg:p-6 justify-center">
+              <li className="border-2 rounded-2xl bg-white py-2 md:p-4 lg:p-14">
+                <img
+                  src="./asset/kurikulum.png"
+                  alt=""
+                  className="mb-2 mx-auto"
+                />
+                <h1 className="text-base font-bold text-center text-[#16215D] md:text-xl lg:text-3xl">
+                  Kurikulum Terbaru
                 </h1>
-              </div>
-              <p className="text-xl sm:mb-5 text-white mt-6">Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik agar anak bisa memilih minatnya dan fokus mengembangkan minat tersebut. Sekolah ini didirikan sejak tahun 1989 dan terus berkembang.
-              </p>
-            </div>
+                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-lg">
+                  Menerapkan kurikulum terbaru agar siswa mendapatkan materi
+                  terbaru
+                </p>
+              </li>
+
+              <li className="border-2 rounded-2xl bg-white py-2 md:p-4 lg:p-12">
+                <img
+                  src="./asset/belajar.png"
+                  alt=""
+                  className="mb-5 mx-auto"
+                />
+                <h2 className="text-base font-bold text-center text-[#16215D] md:text-xl lg:text-3xl">
+                  Efektivitas Waktu Belajar
+                </h2>
+                <p className="text-center py-2 text-xs px-2 mb-2 md:text-base lg:text-lg">
+                  Waktu belajar yang dirancang agar para siswa tidak jenuh dan
+                  menerima pelajaran
+                </p>
+              </li>
+
+              <li className="border-2 rounded-2xl bg-white py-2 md:p-4 lg:p-12">
+                <img src="./asset/bakat.png" alt="" className="mb-5 mx-auto" />
+                <h3 className="text-base md:text-xl font-bold text-center text-[#16215D] lg:text-3xl">
+                  Penyaluran Bakat & Minat
+                </h3>
+                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-lg">
+                  Berbagai kegiatan akademik maupun non-akademik untuk mendukung
+                  bakat minat
+                </p>
+              </li>
+            </ul>
           </div>
 
-        </div>
+          <div className="flex flex-col items-center md:flex-row py-10">
+            <img
+              className="w-1/2 md:w-1/3 md:pl-10 lg:w-1/2 lg:pl-20"
+              src="./asset/rafiki2.png"
+            />
+            <ul className="font-bold text-white text-2xl md:text-3xl lg:text-5xl text-center pt-16 md:pt-2 ">
+              Tentang Kami
+              <li className="text-white text-sm md:text-base md:text-justify lg:text-xl lg:mx-32 lg:text-justify font-normal lg:pt-10 text-justify px-8 pt-5 md:mx-18 ">
+              Sekolah Kami merupakan sekolah informal yang dikelola untuk
+              membantu anak mengembangkan bakat dan kemampuannya. Dengan
+              memberikan kurikulum terbaik agar anak bisa memilih minatnya dan
+              fokus mengembangkan minat tersebut. Sekolah ini didirikan sejak
+              tahun 1989 dan terus berkembang.
+            </li>
+            </ul>
+          </div>
+        </section>
+
 
         {/* Artikel */}
-        <div className="container justify-center mx-auto text-3xl font-bold pr-6 mt-2 pt-8  rounded-xl">
-          <h1 className="font-bold leadi text-[40px] pr-2 pt-14 text-center items-center justify-center text-[#16215D]">
-            Artikel
-          </h1>
-          <p className="text-[20px] pt-4 pr-2  text-center items-center justify-center text-[#16215D]">Artikel seputar pendidikan</p>
-        </div>
-        <div className="inline-flex gap-[30px] lg:px-20 mt-8">
-          <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
-            <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
-              <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
-              <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
-              <a className="py-1 text-sm">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</a>
-              <ul className="text-sm py-2 text-[#3362CC] font-semibold">Baca selengkapnya</ul>
-            </div>
+        <section className="pt-20 items-center">
+          <div className="font-bold text-4xl md:text-6xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2">
+            <h1>Artikel</h1>
+            <p className="text-xl md:text-2xl lg:text-2xl pt-4  text-center text-[#16215D] font-normal">
+              Artikel seputar pendidikan
+            </p>
           </div>
 
-          <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
-            <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
-              <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
-              <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
-              <a className="py-1 text-sm">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</a>
-              <ul className="text-sm py-2 text-[#3362CC] font-semibold">Baca selengkapnya</ul>
-            </div>
-          </div>
+          <div className=" p-5 xl:p-0 lg:p-0 xl:m-0 mt-8 items-center justify-center mx-auto lg:-mb-10">
+            <ul className="space-y-5 lg:space-x-7 flex flex-col lg:flex-row md:p-10 xl:p-20 md:flex-row md:gap-5">
+            <li className="rounded-b-2xl pt-5 pb-9 lg:-pb-2 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] md:mt-5">
+                <img src="./asset/kelas.png" alt="" className="w-full" />
+                <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
+                  12 Desember 2020
+                </h1>
+                <p className=" py-2 text-base font-bold text-[#16215D]">
+                  Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
+                </p>
+                <a className="py-2 text-sm">
+                  Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
+                  kembali belajar di sekolah. Saya ingin bertemu dengan
+                  teman-teman . . .
+                </a>
+                <ul className="text-sm py-2 text-[#3362CC] font-semibold">
+                  Baca selengkapnya
+                </ul>
+              </li>
 
-          <div className="flex flex-col h-[485px] w-[350px] p-6 border-2 rounded-xl border-[#54BAEB]">
-            <img src="./asset/kelas.png" alt="" className="w-full h-[320px] rounded-xl" />
-            <div className=" rounded-b-2xl pt-5 pb-9 pl-3 ">
-              <h1 className="font-semibold text-sm text-[#619AEF]">12 Desember 2020</h1>
-              <p className=" py-1 text-base font-bold text-[#16215D]">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</p>
-              <a className="py-1 text-sm">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</a>
-              <ul className="text-sm py-2 text-[#3362CC] font-semibold">Baca selengkapnya</ul>
-            </div>
+              <li className="rounded-b-2xl pt-5 pb-9 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
+                <img src="./asset/kelas.png" alt="" className="w-full" />
+                <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
+                  12 Desember 2020
+                </h1>
+                <p className=" py-2 text-base font-bold text-[#16215D]">
+                  Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
+                </p>
+                <a className="py-2 text-sm">
+                  Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
+                  kembali belajar di sekolah. Saya ingin bertemu dengan
+                  teman-teman . . .
+                </a>
+                <ul className="text-sm py-2 text-[#3362CC] font-semibold">
+                  Baca selengkapnya
+                </ul>
+              </li>
+
+              <li className="rounded-b-2xl pt-5 pb-9 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
+                <img src="./asset/kelas.png" alt="" className="w-full" />
+                <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
+                  12 Desember 2020
+                </h1>
+                <p className=" py-2 text-base font-bold text-[#16215D]">
+                  Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
+                </p>
+                <a className="py-2 text-sm">
+                  Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
+                  kembali belajar di sekolah. Saya ingin bertemu dengan
+                  teman-teman . . .
+                </a>
+                <ul className="text-sm py-2 text-[#3362CC] font-semibold">
+                  Baca selengkapnya
+                </ul>
+              </li>
+            </ul>
           </div>
-        </div>
+        </section>
 
         {/* Galeri*/}
-        <div className="font-bold leadi text-[40px] pr-60 pt-24 text-[#16215D] ml-[80px]">Artikel</div>
-        <div className="container flex flex-col justify-center mx-auto lg:px-20 lg:flex-row lg:justify-between text-3xl font-bold sm:text-3xl rounded-xl">
-          <h1 className="leadi text-xl py-4 font-medium text-[#16215D]">
-            Dokumentasi Sekolah
-          </h1>
-          <div className="w-[110px] h-[100px] text-sm flex-col items-center text-end text-white pt-4">
-            <p className="p-2 bg-[#619AEF] text-white hover:bg-[#16215D] rounded-[8px]">Lihat Semua</p>
-          </div>
+        <section className='pt-10'>
+        <div className="font-bold text-4xl md:text-6xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2 lg:-pt-10">
+  <h1>Galeri</h1>
+  <div className="flex flex-col md:flex-row items-center justify-center text-center md:gap-80 lg:gap-[690px] md:pt-10">
+  <p className="text-xl md:text-xl lg:text-2xl pt-6 md:pt-0 md:pr-4 mr-2 text-[#16215D] pb-4">
+    Dokumentasi Sekolah
+  </p>
+  <button className="p-2 bg-[#619AEF] text-sm items-center text-white hover:bg-[#16215D] rounded-[8px] ml-2">
+    Lihat Semua
+  </button>
+</div>
+
+</div>
+
+
+        <div className="p-5 xl:p-0 lg:p-0 xl:m-0 items-center justify-center">
+          <ul className="space-y-5 lg:space-y-0 lg:space-x-7 flex flex-col lg:flex-row xl:p-20 md:space-y-0 rounded-[16px] md:gap-5 py-5 items-center md:flex-row">
+
+            <li className="">
+              <img src="./asset/ruang.png" alt="" className="" />
+            </li>
+
+            <li className="">
+              <img src="./asset/ngajar.png" alt="" className="" />
+            </li>
+
+            <li className="">
+              <img src="./asset/room.png" alt="" className="" />
+            </li>
+
+            <li className="">
+              <img src="./asset/tas.png" alt="" className="" />
+            </li>
+          </ul>
         </div>
-        <div className="container justify-center lg:flex-row">
-          <div className="inline-flex pb-[24px] gap-[32px] lg:px-16 ml-2">
-            <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <img src="./asset/ruang.png" alt="" className="w-full h-[320px]" />
-            </div>
-
-            <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <img src="./asset/ngajar.png" alt="" className="w-full h-[320px]" />
-            </div>
-
-            <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <img src="./asset/room.png" alt="" className="w-full h-[320px]" />
-            </div>
-
-            <div className="flex flex-col h-[325px] w-[255px] rounded-[16px] overflow-hidden">
-              <img src="./asset/tas.png" alt="" className="w-full h-[320px]" />
-            </div>
-          </div>
-        </div>
+        </section>
 
         {/* Daftar */}
         <Daftar />

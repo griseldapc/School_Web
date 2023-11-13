@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-12 font-abc">
+        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-10 font-abc">
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
                     <img src="./asset/Vector (1).png" alt="Description of the img" width="100"/>
@@ -19,7 +19,7 @@ export default function Navbar() {
                 </div>
 
                 {/* large screen navigation */}
-                <ul className="hidden md:flex  text-lg lg:text-[16px] text-[#30396E]">
+                <ul className="hidden md:flex text-sm lg:text-[16px] text-[#30396E] md:text-base lg:text-xl">
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
                         <Link href="/">Beranda</Link>
