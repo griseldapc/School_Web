@@ -9,7 +9,7 @@ export default  function Berita (){
     }, []);
 
     return(
-        <div className="flex-wrap flex gap-[20px] lg:px-20 mt-28 p-6 lg:mt-0 mx-auto">
+        <div className="flex-wrap flex gap-[20px] lg:px-20 -mt-16 p-6 lg:mt-0 mx-auto">
             {jsonData.map((item,index) => (
                 <a key={index} href="#" class="group">
                 

@@ -66,7 +66,7 @@ export default function Navbar() {
                     {/* smaller screen navbar link */}
                     <div className="w-full">
 
-                        <ul className=" font-bold text-2xl">
+                        <ul className="text-xl">
 
                             <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
                                 <Link href="/"> Beranda

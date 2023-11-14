@@ -3,8 +3,8 @@ import React from "react";
  export default function Daftar () {
     return (
         <main className="flex justify-center">
-          <section className=" bg-gradient-to-b from-[#3871D0] to-[#58C6EF] w-[1100px] md:w-[650px] 
-          lg:w-[1100px] rounded-[24px] pt-5 mt-28 pb-10 md:flex md:flex-row md:px-3 lg:h-[310px] ">
+          <section className=" bg-gradient-to-b from-[#3871D0] to-[#58C6EF] w-[1100px] md:w-[750px] 
+          lg:w-[1100px] rounded-[24px] pt-5 mt-10 pb-10 mb-14 md:flex md:flex-row md:px-3 lg:h-[310px] ">
           <div className="pt-[40px] mx-5 md:mx-10">
             <ul className="mb-8 ">
               <li className="font-bold text-2xl text-white lg:text-[50px]">

@@ -12,7 +12,7 @@ export default function Index() {
         <img src="./asset/circle.png" alt="Description of the img" width="100" className='hidden' />
 
         {/* Ilmu */}
-        <section className='flex md:flex-col lg:flex-col md:mt-5 p-5 lg:-mt-5'>
+        <section className='flex flex-col md:flex-col lg:flex-col md:mt-5 p-5 lg:-mt-5'>
           <div className='md:flex-row md:flex  md:items-start lg:text-left lg:m-10'>
             <ul className='my-5 md:pl-5 md:top-0 lg:mt-24'>
               <h1 className="font-bold text-2xl md:text-3xl lg:text-[42px] py-5 text-[#16215D] mt-20">
@@ -100,16 +100,16 @@ export default function Index() {
 
 
         {/* Artikel */}
-        <section className="pt-20 items-center">
-          <div className="font-bold text-4xl md:text-6xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2">
+        <section className="pt-20 lg:pt-32 items-center">
+          <div className="font-bold text-2xl md:text-5xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2">
             <h1>Artikel</h1>
-            <p className="text-xl md:text-2xl lg:text-2xl pt-4  text-center text-[#16215D] font-normal">
+            <p className="text-base md:text-2xl lg:text-2xl pt-2 text-center text-[#16215D] font-normal">
               Artikel seputar pendidikan
             </p>
           </div>
 
-          <div className=" p-5 xl:p-0 lg:p-0 xl:m-0 mt-8 items-center justify-center mx-auto lg:-mb-10">
-            <ul className="space-y-5 lg:space-x-7 flex flex-col lg:flex-row md:p-10 xl:p-20 md:flex-row md:gap-5">
+          <div className=" p-5 xl:p-0 lg:p-0 xl:m-0 mt-8 items-center justify-center mx-auto md:-mt-10">
+            <ul className="space-y-5 lg:space-x-5 flex flex-col lg:flex-row md:p-10 xl:p-20 md:flex-row md:gap-5 lg:-mt-10">
             <li className="rounded-b-2xl pt-5 pb-9 lg:-pb-2 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] md:mt-5">
                 <img src="./asset/kelas.png" alt="" className="w-full" />
                 <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
@@ -170,12 +170,12 @@ export default function Index() {
         {/* Galeri*/}
         <section className='pt-10'>
         <div className="font-bold text-4xl md:text-6xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2 lg:-pt-10">
-  <h1>Galeri</h1>
+  <h1 className='md:text-5xl'>Galeri</h1>
   <div className="flex flex-col md:flex-row items-center justify-center text-center md:gap-80 lg:gap-[690px] md:pt-10">
-  <p className="text-xl md:text-xl lg:text-2xl pt-6 md:pt-0 md:pr-4 mr-2 text-[#16215D] pb-4">
+  <p className="text-xl font-normal md:text-xl lg:text-2xl pt-2 md:pt-0 md:pr-4 mr-2 text-[#16215D] pb-4">
     Dokumentasi Sekolah
   </p>
-  <button className="p-2 bg-[#619AEF] text-sm items-center text-white hover:bg-[#16215D] rounded-[8px] ml-2">
+  <button className="p-2 bg-[#619AEF] font-medium text-sm  items-center text-white hover:bg-[#16215D] rounded-[8px] ml-2">
     Lihat Semua
   </button>
 </div>
@@ -184,7 +184,7 @@ export default function Index() {
 
 
         <div className="p-5 xl:p-0 lg:p-0 xl:m-0 items-center justify-center">
-          <ul className="space-y-5 lg:space-y-0 lg:space-x-7 flex flex-col lg:flex-row xl:p-20 md:space-y-0 rounded-[16px] md:gap-5 py-5 items-center md:flex-row">
+          <ul className="space-y-5 lg:space-y-0 lg:space-x-7 flex flex-col lg:flex-row xl:p-20 md:space-y-0 rounded-[16px] md:gap-5 py-5 items-center md:flex-row lg:-mt-10">
 
             <li className="">
               <img src="./asset/ruang.png" alt="" className="" />
