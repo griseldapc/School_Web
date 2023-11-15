@@ -12,12 +12,10 @@ export default function Tentang_kita() {
       <main className='font-abc'>
 
         {/* Hero */}
-        <section className="flex flex-col justify-center mx-auto items-center mt-16 pt-16 lg:flex-row">
-          <div>
+        <section className="flex flex-col justify-center mx-auto items-center mt-16 pt-16 lg:flex-row p-5">
             <div className="">
-              <img className="w-full md:w-[500px] md:h-[350px] z-10" src="./asset/g6.png" />
+              <img className=" md:w-[500px] md:h-[350px] z-10" src="./asset/g6.png" />
             </div>
-          </div>
         </section>
         <img className="pt-7 absolute top-0 z-0 md:hidden hidden" src='./asset/Vector (3).png'/>
 
@@ -35,7 +33,7 @@ export default function Tentang_kita() {
           src="https://www.youtube.com/embed/9xofia597HI"
           frameborder="0"
           allowfullscreen
-          className="mx-auto rounded-xl h-auto md:w-[640px] md:h-[300px] lg:w-[1120px] lg:h-[500px]"
+          className="mx-auto rounded-xl h-auto md:w-[650px] md:h-[300px] lg:w-[1150px] lg:h-[500px]"
         ></iframe>
             </div>
         </div>
@@ -44,20 +42,21 @@ export default function Tentang_kita() {
 
 
         {/* Keunggulan */}
-        <section className="bg-gradient-to-b from-[#3871D0] to-[#58C6EF] lg:rounded-[150px] rounded-3xl lg:mb-8  ">
+        <section className="bg-gradient-to-b from-[#3871D0] to-[#58C6EF] lg:rounded-[150px] rounded-3xl lg:mb-8 lg:px-10  ">
           <h1 className="text-white font-semibold text-xl md:text-4xl lg:text-5xl text-center pt-5 md:pt-16 lg:pt-20 md:m-10">
             Keunggulan Sekolah Kami
           </h1>
 
           <div className="text-center sm:p-6 p-10">
             <ul className="space-y-4 md:space-y-0 md:flex md:gap-5 lg:gap-8 justify-center">
-              <li className="border-2 rounded-2xl bg-white py-2 md:p-4 lg:p-10">
+
+              <li className="border-2 rounded-2xl bg-white py-2 md:p-4 lg:p-10 lg:w-[900px]">
                 <img
                   src="./asset/kurikulum.png"
                   alt=""
                   className="mb-2 mx-auto"
                 />
-                <h1 className="text-base font-bold text-center text-[#16215D] md:text-xl lg:text-3xl">
+                <h1 className="text-base font-bold text-center text-[#16215D] md:text-xl lg:text-3xl lg:mt-5">
                   Kurikulum Terbaru
                 </h1>
                 <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-lg">
@@ -115,7 +114,7 @@ export default function Tentang_kita() {
               Guru & Staff
             </h1>
 
-            <div className="flex flex-col md:flex-row items-center justify-center text-center md:gap-96 lg:gap-[690px] md:pt-4">
+            <div className="flex flex-col md:flex-row items-center justify-center text-center md:gap-[360px] lg:gap-[700px] md:pt-4">
               <p className="text-xl font-medium md:text-xl lg:text-2xl pt-2 mb-4 md:pr-4 mr-2 text-[#16215D]">
                 Dokumentasi Sekolah
               </p>
@@ -128,7 +127,7 @@ export default function Tentang_kita() {
             
 
           <div className="p-5 xl:p-0 xl:m-0 items-center justify-center mt-6 md:-mt-2">
-  <ul className="lg:space-x-7 lg:-mt-10 flex flex-col lg:flex-row xl:p-20 rounded-[16px] md:flex-row md:gap-5 border-[#54BAEB] items-center justify-center lg:-mb-10">
+  <ul className="lg:space-x-5 lg:-mt-10 flex flex-col lg:flex-row xl:p-20 rounded-[16px] md:flex-row md:gap-2 md:p-3 border-[#54BAEB] items-center justify-center lg:-mb-10">
     
     <li className="border-2 border-[#54BAEB] p-5 rounded-xl my-4">
       <img src="./asset/1.png" alt="" className="rounded-xl" />

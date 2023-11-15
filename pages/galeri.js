@@ -13,7 +13,7 @@ export default function Galeri() {
                 </div>
 
                 {/* Hero */}
-                <section className="flex items-center justify-center pt-5">
+                <section className="flex items-center justify-center pt-5 p-5">
                     <div>
                         <div>
                             <img className="md:w-[500px] md:h-[350px] z-10" src="./asset/galeri.png" />

@@ -13,7 +13,7 @@ export default function Kontak() {
                 </div>
 
                 {/* Hero */}
-                <section className="flex items-center justify-center pt-5">
+                <section className="flex items-center justify-center pt-5 p5">
                     <div>
                         <img className="md:w-[500px] md:h-[350px] z-10" src="./asset/kontak.png" />
                     </div>

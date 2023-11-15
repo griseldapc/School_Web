@@ -14,13 +14,13 @@ export default function Index() {
         {/* Ilmu */}
         <section className='flex flex-col md:flex-col lg:flex-col md:mt-5 p-5 lg:-mt-5'>
           <div className='md:flex-row md:flex  md:items-start lg:text-left lg:m-10'>
-            <ul className='my-5 md:pl-5 md:top-0 lg:mt-24'>
-              <h1 className="font-bold text-2xl md:text-3xl lg:text-[42px] py-5 text-[#16215D] mt-20">
+            <ul className='my-5 md:pl-5 md:top-0 lg:mt-24 text-center items-center md:text-left md:items-start'>
+              <h1 className="font-bold text-2xl md:text-3xl lg:text-[45px] lg:text-5xl py-5 text-[#16215D] mt-20 lg:tracking-wide">
                 Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik 
               </h1>
-              <p className="text-lg sm:mb-5 text-gray-500 mb-5 lg:text-xl lg:font-medium">Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat.
+              <p className="text-lg sm:mb-5 text-gray-500 mb-5 lg:text-xl lg:font-medium ">Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat.
               </p>
-                <a rel="" href="#" className="text-sm w-40 h-10 py-2 px-2  bg-[#619AEF] text-white rounded-lg border-gray-100 hover:bg-[#16215D] flex flex-col text-center items-center">Daftar Sekarang</a>
+                <a rel="" href="#" className="text-sm w-40 h-8 py-2 px-2 mx-auto md:mx-0  bg-[#619AEF] text-white rounded-lg border-gray-100 hover:bg-[#16215D] flex flex-col justify-center items-center p-2">Daftar Sekarang</a>
             </ul>
             <div className="md:w-full justify-center md:pt-20">
               <img src="./asset/rafiki1.png"/>
@@ -30,7 +30,7 @@ export default function Index() {
 
 
         {/* Keunggulan */}
-        <section className="bg-gradient-to-b from-[#3871D0] to-[#58C6EF] lg:rounded-[250px] rounded-3xl  ">
+        <section className="bg-gradient-to-b from-[#3871D0] to-[#58C6EF]  lg:rounded-[250px] rounded-3xl  ">
           <h1 className="text-white font-semibold text-xl md:text-4xl lg:text-5xl text-center mt-8 pt-10 md:pt-16 lg:pt-20 md:m-10">
             Keunggulan Sekolah Kami
           </h1>
@@ -87,7 +87,7 @@ export default function Index() {
             />
             <ul className="font-bold text-white text-2xl md:text-3xl lg:text-5xl text-center pt-16 md:pt-2 ">
               Tentang Kami
-              <li className="text-white text-sm md:text-base md:text-justify lg:text-xl lg:mx-32 lg:text-justify font-normal lg:pt-10 text-justify px-8 pt-5 md:mx-18 ">
+              <li className="text-white text-sm md:text-base md:text-justify lg:text-xl lg:mx-32 lg:text-justify font-normal lg:pt-10  px-8 pt-5 md:mx-18 ">
               Sekolah Kami merupakan sekolah informal yang dikelola untuk
               membantu anak mengembangkan bakat dan kemampuannya. Dengan
               memberikan kurikulum terbaik agar anak bisa memilih minatnya dan
@@ -108,9 +108,9 @@ export default function Index() {
             </p>
           </div>
 
-          <div className=" p-5 xl:p-0 lg:p-0 xl:m-0 mt-8 items-center justify-center mx-auto md:-mt-10">
-            <ul className="space-y-5 lg:space-x-5 flex flex-col lg:flex-row md:p-10 xl:p-20 md:flex-row md:gap-5 lg:-mt-10">
-            <li className="rounded-b-2xl pt-5 pb-9 lg:-pb-2 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] md:mt-5">
+          <div className=" p-5 xl:p-0 lg:p-0 xl:m-0 mt-8 items-center justify-center mx-auto md:mt-5 text-justify">
+            <ul className="space-y-5 lg:space-x-5 flex flex-col lg:flex-row xl:p-20 md:flex-row md:gap-5 lg:-mt-10">
+            <li className="rounded-b-2xl pt-5 lg:-pb-2 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] md:mt-5">
                 <img src="./asset/kelas.png" alt="" className="w-full" />
                 <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
                   12 Desember 2020
@@ -128,7 +128,7 @@ export default function Index() {
                 </ul>
               </li>
 
-              <li className="rounded-b-2xl pt-5 pb-9 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
+              <li className="rounded-b-2xl pt-5 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
                 <img src="./asset/kelas.png" alt="" className="w-full" />
                 <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
                   12 Desember 2020
@@ -146,7 +146,7 @@ export default function Index() {
                 </ul>
               </li>
 
-              <li className="rounded-b-2xl pt-5 pb-9 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
+              <li className="rounded-b-2xl pt-5 pl-3 p-4 border-2 rounded-xl border-[#54BAEB] lg:-pb-2">
                 <img src="./asset/kelas.png" alt="" className="w-full" />
                 <h1 className="font-semibold text-sm text-[#619AEF] mt-5">
                   12 Desember 2020
@@ -168,7 +168,7 @@ export default function Index() {
         </section>
 
         {/* Galeri*/}
-        <section className='pt-10'>
+        <section className='pt-10 lg:-mt-5'>
         <div className="font-bold text-4xl md:text-6xl lg:text-5xl text-center mx-auto items-center justify-center text-[#16215D] space-y-2 lg:-pt-10">
   <h1 className='md:text-5xl'>Galeri</h1>
   <div className="flex flex-col md:flex-row items-center justify-center text-center md:gap-80 lg:gap-[690px] md:pt-10">
@@ -184,7 +184,7 @@ export default function Index() {
 
 
         <div className="p-5 xl:p-0 lg:p-0 xl:m-0 items-center justify-center">
-          <ul className="space-y-5 lg:space-y-0 lg:space-x-7 flex flex-col lg:flex-row xl:p-20 md:space-y-0 rounded-[16px] md:gap-5 py-5 items-center md:flex-row lg:-mt-10">
+          <ul className="space-y-5 lg:space-y-0 lg:space-x-7 flex flex-col lg:flex-row md:space-y-0 rounded-[16px] md:gap-5 py-5 items-center md:flex-row lg:-mt-10 lg:p-20">
 
             <li className="">
               <img src="./asset/ruang.png" alt="" className="" />

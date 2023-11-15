@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <main class="pt-7">
+        <main class="pt-7 md:p-5">
     <div class="container mx-auto lg:pt-12 bg-white">
         <div class="lg:flex px-5">
             <div class="w-full -mx-6 lg:w-2/5">
