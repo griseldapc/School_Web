@@ -1,8 +1,24 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import swal from "sweetalert";
 
 export default function Kontak() {
+    const handleClick = () => {
+        swal("Are you sure?", {
+            dangerMode: true,
+            buttons: true,
+        }).then((isConfirmed) => {
+            if (isConfirmed) {
+                return swal({
+                    title: "Success",
+                    icon: "success"
+                });
+            }
+        });
+    };
+    
+    
     return (
         <>
             <main className="font-abc">
@@ -33,7 +49,7 @@ export default function Kontak() {
 
                 <div className="flex flex-col md:flex-row gap-20 mx-auto lg:-mt-1 md:pt-20 md:gap-10 lg:px-3 md:justify-between">
 
-                    <p className="flex-col gap-8 md:-mt-[66px] px-10 lg:px-0 md:-ml-3 lg:mx-10 md:w-1/2">
+                    <div className="flex-col gap-8 md:-mt-[66px] px-10 lg:px-2 md:-ml-3 lg:mx-10 md:w-1/2">
                         {/* Konten Kolom Pertama */}
                         <ul className="justify-start items-center gap-5 inline-flex mb-4 lg:gap-x-10">
                             <li className="justify-start items-start flex">
@@ -70,7 +86,7 @@ export default function Kontak() {
                                 <h2 className="font-normal text-xs md:text-base">malang</h2>
                             </li>
                         </ul>
-                    </p>
+                    </div>
 
                     <div className="text-base text-[#3A3B41B2] tracking-wide p-10 -mt-24 mx-auto md:p-3 md:mr-3  md:-mt-20 lg:-ml-[200px] lg:px-8 ">
                         {/* Konten Kolom Kedua */}
@@ -102,9 +118,9 @@ export default function Kontak() {
                         </ul>
 
                         <ul className="pb-5 pt-3">
-                            <li className="py-2 border-2 pl-4 w-[240px] md:w-[285px] lg:w-[600px] bg-[#619AEF] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs lg:text-sm">
+                            <button onClick={handleClick} className="py-2 border-2 pl-4 w-[240px] md:w-[285px] lg:w-[600px] bg-[#619AEF] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs lg:text-sm">
                                 Kirim Pesan
-                            </li>
+                            </button>
                         </ul>
                     </div>
                 </div>

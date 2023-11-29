@@ -38,7 +38,7 @@ export default function Galeri() {
                 {/* Card */}
                 <div className=" mt-10 lg:mt-10 lg:flex-wrap lg:flex md:flex md:justify-center md:flex-wrap">
                     {jsonData.map((item, index) => (
-                        <a key={index} href="#" class="group">
+                        <a key={index} href="#" className="group">
 
                             <ul className="flex justify-center md:flex-row p-7 py-5 lg:p-6 md:p-3">
                                 <li className="relative overflow-hidden md:w-[220px] lg:w-[350px]">

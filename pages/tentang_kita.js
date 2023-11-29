@@ -125,7 +125,7 @@ export default function Tentang_kita() {
 
           <div className="p-5 xl:p-0 xl:m-0 items-center justify-center mt-6 md:-mt-2 lg:flex lg:space-x-2 md:flex">
             {jsonGuru.map((item, index) => (
-              <a key={index} href="#" class="group">
+              <a key={index} href="#" className="group">
                 <ul className="lg:mt-5 flex flex-col rounded-[16px] md:p-3 border-[#54BAEB] lg:-mb-20 lg:w-72 px-3 md:w-[184px]">
 
                   <li className="border-2 border-[#54BAEB] p-5 rounded-xl my-4">

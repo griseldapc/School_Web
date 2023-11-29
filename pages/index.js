@@ -43,7 +43,7 @@ export default function Index() {
 
           <div className="text-center sm:p-6 p-8">
             <ul className="space-y-4 md:space-y-0 md:flex md:gap-7 lg:gap-8 lg:p-6 justify-center">
-              <li className="border-2 rounded-2xl bg-white py-2 md:p-2 md:w-[220px] lg:p-9 w-64 lg:w-[360px]">
+              <li className="border-2 rounded-2xl bg-white py-2 md:p-2 md:w-full lg:p-9 w-64 lg:w-[363px]">
                 <img
                   src="./asset/kurikulum.png"
                   alt=""
@@ -52,28 +52,28 @@ export default function Index() {
                 <h1 className="text-sm font-bold text-center text-[#16215D] md:text-base lg:text-xl md:mt-5">
                   Kurikulum Terbaru
                 </h1>
-                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base w-56 mx-auto md:w-40 lg:w-72">
+                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base mx-auto md:w-40 lg:w-72">
                   Menerapkan kurikulum terbaru agar siswa mendapatkan materi
                   terbaru
                 </p>
               </li>
 
-              <li className="border-2 rounded-2xl bg-white py-2 md:w-[220px] md:p-2 lg:p-9 w-64 lg:w-[360px]">
+              <li className="border-2 rounded-2xl bg-white py-2 md:w-full md:p-2 lg:p-9 w-64 lg:w-[363px]">
                 <img src="./asset/belajar.png" alt="" className="mb-5 mx-auto" />
                 <h3 className="text-sm md:text-base font-bold text-center text-[#16215D] lg:text-xl">
                   Efektifitas Waktu Belajar
                 </h3>
-                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base w-56 mx-auto md:w-40 lg:w-72">
+                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base mx-auto md:w-40 lg:w-72">
                   Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran
                 </p>
               </li>
 
-              <li className="border-2 rounded-2xl bg-white py-2 md:w-[220px] md:p-2 lg:p-9 w-64 lg:w-[360px]">
+              <li className="border-2 rounded-2xl bg-white py-2 md:w-full md:p-2 lg:p-9 w-64 lg:w-[363px]">
                 <img src="./asset/bakat.png" alt="" className="mb-5 mx-auto" />
                 <h3 className="text-sm md:text-base font-bold text-center text-[#16215D] lg:text-xl">
                   Penyaluran Bakat & Minat
                 </h3>
-                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base w-56 mx-auto md:w-40 lg:w-72">
+                <p className="text-center py-2 px-2 text-xs mb-2 md:text-base lg:text-base mx-auto md:w-40 lg:w-72">
                   Berbagai macam kegitan akademik maupun non akademik untuk mendukung bakat minat
                 </p>
               </li>
@@ -82,7 +82,7 @@ export default function Index() {
 
           <div className="flex flex-col items-center md:flex-row justify-between md:mt-16 ">
             <img
-              className="w-1/2 md:w-1/3 md:pl-7 lg:h-[448.83px] lg:w-[448.83px] lg:ml-5 lg:mb-32"
+              className="w-1/2 md:w-1/3 md:pl-7 lg:h-[448.83px] lg:w-[448.83px] lg:ml-7 lg:mb-32"
               src="./asset/rafiki2.png"
             />
             <ul className="font-bold text-white text-center pt-10 mb-10 md:pt-2 lg:ml-36">
@@ -186,10 +186,10 @@ export default function Index() {
 
           <div className="p-7 xl:p-0 lg:p-0 xl:m-0 items-center justify-center lg:flex lg:gap-6 md:flex md:gap-4">
           {jsonIndex.map((item,index) => (
-                <a key={index} href="#" class="group">
-            <ul className="space-y-5 flex flex-col lg:flex-row md:space-y-0 rounded-[16px] py-5 items-center md:flex-row lg:mt-5 md:w-[165px] lg:w-[270px]">
+                <a key={index} href="#" className="group">
+            <ul className="space-y-5 flex flex-col lg:flex-row md:space-y-0 rounded-[16px] py-5 items-center md:flex-row lg:mt-5 md:w-full lg:w-[270px] ">
               <li className="">
-                <img src={item.img} alt="" className="w-[270px]" />
+                <img src={item.img} alt="" className="w-full " />
               </li>
             </ul>
             </a>

@@ -36,7 +36,7 @@ export default function Artikel() {
 
         {/* Content */}
         <section className="pt-20 items-center">
-          <div className="flex flex-col lg:flex-row md:flex-row mb-16 border-[#54BAEB] border-2 rounded-2xl w-[270px] md:w-[710px] lg:w-[1150px] pb-10 items-center justify-center mx-auto text-center p-3 md:h-[300px] lg:h-[455px] lg:justify-between h-[610px]">
+          <div className="flex flex-col lg:flex-row md:flex-row mb-16 border-[#54BAEB] border-2 rounded-2xl w-[270px] md:w-[710px] lg:w-[1150px] pb-10 items-center justify-center mx-auto text-center p-3 md:h-[300px] lg:h-[465px] lg:justify-between h-[610px]">
             <div className="-mt-4 items-center justify-center lg:h-[380px] flex flex-col md:px-3 md:mt-6 lg:-ml-5">
               <img className="h-[150px] lg:h-[450px] md:h-[240px]" src="./asset/kelas.png" />
             </div>
@@ -60,9 +60,9 @@ export default function Artikel() {
 
 
         {/* Artikel */}
-        <div className="flex-wrap flex gap-[20px] lg:px-14 md:pl-8 -mt-16 p-6 lg:-mt-5 mx-auto md:gap-7 lg:gap-8">
+        <div className="flex-wrap flex gap-[20px] lg:px-14 xl:justify-center md:pl-8 -mt-16 p-6 lg:-mt-5 mx-auto md:gap-7 lg:gap-8">
           {jsonData.map((item, index) => (
-            <a key={index} href="#" class="group">
+            <a key={index} href="#" className="group">
 
               <div className="flex flex-col h-[485px] p-6 md:w-[340px] lg:w-[362px]  border-2 rounded-xl border-[#54BAEB]">
                 <img src={item.image} alt="" className="w-full h-[320px] rounded-xl" />
