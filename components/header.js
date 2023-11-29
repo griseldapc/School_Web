@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-10 font-abc">
+        <header className="bg-white text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-20 px-5 font-abc lg:px-12">
             <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-2 font-abc">
                 <div className="relative z-10">
                     <img src="./asset/Vector (1).png" alt="Description of the img" width="100"/>
@@ -19,14 +19,14 @@ export default function Navbar() {
                 </div>
 
                 {/* large screen navigation */}
-                <ul className="hidden md:flex text-sm lg:text-[16px] text-[#30396E] md:text-base lg:text-xl">
+                <ul className="hidden md:flex text-sm lg:text-lg text-[#30396E] md:text-base">
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
                         <Link href="/">Beranda</Link>
                     </li>
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
-                        <Link href="/tentang_kita">Tentang Kami</Link>
+                        <Link href="/tentang_kita">Tentang</Link>
                     </li>
 
                     <li className="mr-4 lg:mr-8 hover:text-[#619AEF]">
@@ -44,7 +44,7 @@ export default function Navbar() {
                 <div className="hidden md:flex">
                     <div className="flex relative z-10">
                         <Link href="/PPDB">
-                            <button className="mr-5 bg-[#619AEF] text-white hover:bg-[#30396E]  rounded-[8px] uppercase font-bold px-8 py-2">PPDB
+                            <button className=" bg-[#619AEF] text-white hover:bg-[#30396E]  rounded-[8px] uppercase font-bold px-8 py-2">PPDB
                             </button>
                         </Link>
                     </div>
@@ -64,31 +64,31 @@ export default function Navbar() {
                     'md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-[#619AEF] text-white ease-in duration-300'
                 }>
                     {/* smaller screen navbar link */}
-                    <div className="w-full">
+                    <div className="w-full -mt-24">
 
                         <ul className="text-xl">
 
-                            <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
+                            <li onClick={handleSmallerScreenNavigation} className="py-2 hover:text-[#CEFF00] cursor-pointer">
                                 <Link href="/"> Beranda
                                 </Link>
                             </li>
 
-                            <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
-                                <Link href="/tentang_kita"> Tentang Kami
+                            <li onClick={handleSmallerScreenNavigation} className="py-2 hover:text-[#CEFF00] cursor-pointer">
+                                <Link href="/tentang_kita"> Tentang
                                 </Link>
                             </li>
 
-                            <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
+                            <li onClick={handleSmallerScreenNavigation} className="py-2 hover:text-[#CEFF00] cursor-pointer">
                                 <Link href="/artikel"> Artikel
                                 </Link>
                             </li>
 
-                            <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
+                            <li onClick={handleSmallerScreenNavigation} className="py-2 hover:text-[#CEFF00] cursor-pointer">
                                 <Link href="/galeri"> Galeri
                                 </Link>
                             </li>
 
-                            <li onClick={handleSmallerScreenNavigation} className="py-5 hover:text-[#CEFF00] cursor-pointer">
+                            <li onClick={handleSmallerScreenNavigation} className="py-2 hover:text-[#CEFF00] cursor-pointer">
                                 <Link href="/kontak">
                                     Kontak
                                 </Link>
@@ -96,9 +96,9 @@ export default function Navbar() {
 
                         </ul>
 
-                        <div className="flex flex-col justify-center items-center mt-16">
+                        <div className="flex flex-col justify-center items-center mt-5">
                             <Link href="/PPDB" onClick={handleSmallerScreenNavigation}>
-                                <button className="bg-[#30396E] text-white hover:bg-[#619AEF] rounded-full uppercase font-bold py-3 w-[250px] mb-5">PPDB</button>
+                                <button className="bg-[#30396E] text-white hover:bg-[#619AEF] rounded-full uppercase font-bold py-4 w-[150px] mb-5">PPDB</button>
                             </Link>
 
                         </div>

@@ -8,8 +8,8 @@ export default function Kontak() {
             <main className="font-abc">
                 <Header />
 
-                <div className="pt-28 text-center items-center justify-center text-[#16215D] lg:mt-8">
-                    <h1 className="font-bold text-2xl lg:text-4xl md:text-4xl">Hubungi Kami</h1>
+                <div className="pt-28 text-center items-center justify-center text-[#1C2661] lg:mt-8">
+                    <h1 className="font-bold text-2xl lg:text-[50px] md:text-4xl">Hubungi Kami</h1>
                 </div>
 
                 {/* Hero */}
@@ -25,15 +25,15 @@ export default function Kontak() {
 
 
                 <div className="py-8 text-center text-gray-800 pt-10 mt-10 px-3">
-                    <h1 className="font-bold text-2xl py-4 pr-2 text-center items-center justify-center text-[#16215D] lg:text-4xl">Kontak Kami</h1>
-                    <p className="mb-4 text-base text-[#16215D] lg:text-xl">Untuk info lebih lanjut silahkan hubungi kami</p>
+                    <h1 className="font-bold text-2xl py-4 pr-2 text-center items-center justify-center text-[#1C2661] lg:text-[47px]">Kontak Kami</h1>
+                    <p className="mb-4 text-base text-[#1C2661] lg:text-xl lg:mt-5">Untuk info lebih lanjut silahkan hubungi kami</p>
                 </div>
 
 
 
-                <div className="flex flex-col md:flex-row gap-20 mx-auto lg:-mt-1 md:pt-20 md:gap-10 ">
+                <div className="flex flex-col md:flex-row gap-20 mx-auto lg:-mt-1 md:pt-20 md:gap-10 lg:px-3 md:justify-between">
 
-                    <p className="flex-col gap-8 md:-mt-16 px-10 md:mx-4 lg:mx-12 md:w-1/2">
+                    <p className="flex-col gap-8 md:-mt-[66px] px-10 lg:px-0 md:-ml-3 lg:mx-10 md:w-1/2">
                         {/* Konten Kolom Pertama */}
                         <ul className="justify-start items-center gap-5 inline-flex mb-4 lg:gap-x-10">
                             <li className="justify-start items-start flex">
@@ -72,7 +72,7 @@ export default function Kontak() {
                         </ul>
                     </p>
 
-                    <div className="text-base text-[#3A3B41B2] tracking-wide p-10 -mt-24 mx-auto md:w-1/2 md:-mt-24 md:-ml-20 lg:-ml-60">
+                    <div className="text-base text-[#3A3B41B2] tracking-wide p-10 -mt-24 mx-auto md:p-3 md:mr-3  md:-mt-20 lg:-ml-[200px] lg:px-8 ">
                         {/* Konten Kolom Kedua */}
                         <ul className="pb-5 border-[#54BAEB] rounded-[8px] mx-auto">
                             <li className="py-1 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
@@ -102,7 +102,7 @@ export default function Kontak() {
                         </ul>
 
                         <ul className="pb-5 pt-3">
-                            <li className="py-2 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] bg-[#54BAEB] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs">
+                            <li className="py-2 border-2 pl-4 w-[240px] md:w-[285px] lg:w-[600px] bg-[#619AEF] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs lg:text-sm">
                                 Kirim Pesan
                             </li>
                         </ul>

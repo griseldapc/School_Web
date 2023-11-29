@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import data from "../data/galeri.json";
 
 export default function Galeri() {
+    const [jsonData, setJsonData] = useState([]);
+
+    useEffect(() => {
+        setJsonData(data); //menggunakan data dari artikel.json
+    }, []);
     return (
         <>
             <main className="font-abc">
                 <Header />
 
-                <div className="pt-28 text-center items-center justify-center text-[#16215D] lg:mt-8">
-                    <h1 className="font-bold text-[30px] lg:text-4xl md:text-4xl">Galeri</h1>
-                </div>
-
                 {/* Hero */}
+                <div className="pt-28 text-center items-center justify-center text-[#1C2661] lg:mt-8">
+                    <h1 className="font-bold text-[30px] lg:text-[50px] lg:font-extrabold md:text-4xl">Galeri</h1>
+                </div>
                 <section className="flex items-center justify-center pt-5 p-5">
                     <div>
                         <div>
@@ -27,91 +32,25 @@ export default function Galeri() {
 
                 {/* Dokumentasi */}
                 <div className="pt-24 text-center items-center justify-center text-[#16215D] lg:mt-8">
-                    <h1 className="font-bold text-2xl lg:text-4xl md:text-4xl">Dokumentasi Sekolah</h1>
+                    <h1 className="font-bold text-2xl lg:text-[40px] md:text-4xl lg:font-extrabold">Dokumentasi Sekolah</h1>
                 </div>
 
-                <div className="justify-center mx-auto lg:px-6 lg:flex-row mt-10 lg:mt-16">
-                    <ul className="lg:px-10 items-center justify-center flex flex-col md:flex-row md:gap-7 lg:gap-10">
+                {/* Card */}
+                <div className=" mt-10 lg:mt-10 lg:flex-wrap lg:flex md:flex md:justify-center md:flex-wrap">
+                    {jsonData.map((item, index) => (
+                        <a key={index} href="#" class="group">
 
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/1.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Ruang Kelas</div>
-                        </li>
+                            <ul className="flex justify-center md:flex-row p-7 py-5 lg:p-6 md:p-3">
+                                <li className="relative overflow-hidden md:w-[220px] lg:w-[350px]">
+                                    <img src={item.image} alt="" className="" />
+                                    <div className="absolute -bottom-[2px] left-0 right-0 bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 text-center pt-5 pb-3 text-white font-semibold lg:tracking-wider mx-auto rounded-b-[20px] lg:rounded-3xl lg:h-[90px] md:rounded-[13px] lg:pt-12">
+                                        {item.deskripsi}
+                                    </div>
+                                </li>
+                            </ul>
 
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/2.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar Mengajar</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/3.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Lorong Sekolah</div>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div className="justify-center mx-auto lg:px-6 lg:flex-row lg:-mt-10 ">
-                    <ul className="lg:px-10 items-center justify-center flex flex-col md:flex-row md:gap-7 lg:gap-10">
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/4.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Kelas Bahasa Inggris</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/5.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Karya Murid</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/6.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Tamasya Sekolah</div>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div className="justify-center mx-auto lg:px-6 lg:flex-row lg:-mt-10">
-                    <ul className="lg:px-10 items-center justify-center flex flex-col md:flex-row md:gap-7 lg:gap-10">
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/7.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Lomba Tarik Tambang</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/8.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Halaman Sekolah</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/9.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Pameran Teknologi</div>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div className="justify-center mx-auto lg:px-6 lg:flex-row lg:-mt-10">
-                    <ul className="lg:px-10 items-center justify-center flex flex-col md:flex-row md:gap-7 lg:gap-10">
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/10.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar Menggambar</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/11.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Tugas Kelompok</div>
-                        </li>
-
-                        <li className="relative h-[245px] w-[244px] rounded-[16px] overflow-hidden md:w-[200px] lg:w-[700px] lg:h-[365px]">
-                            <img src="./asset/dokum/12.png" alt="" className="w-full h-[180px] lg:h-[300px]" />
-                            <div className="absolute bottom-[65px] left-0 right-0 h-[50px] bg-gradient-to-b from-[#FFFFFF00] via-[#4D7FD5A0] to-[#3971D0B2] opacity-100 rounded-b-[16px] text-center pt-5 text-white font-medium">Belajar & Bermain</div>
-                        </li>
-
-                    </ul>
+                        </a>
+                    ))}
                 </div>
 
                 <Footer />
