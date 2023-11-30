@@ -82,7 +82,7 @@ export default function Index() {
 
           <div className="flex flex-col items-center md:flex-row justify-between md:mt-16 ">
             <img
-              className="w-1/2 md:w-1/3 md:pl-7 lg:h-[448.83px] lg:w-[448.83px] lg:ml-7 lg:mb-32"
+              className="w-1/2 md:w-1/3 md:pl-7 lg:h-[448.83px] lg:w-[448.83px] lg:ml-7 lg:mb-32 md:mb-20"
               src="./asset/rafiki2.png"
             />
             <ul className="font-bold text-white text-center pt-10 mb-10 md:pt-2 lg:ml-36">

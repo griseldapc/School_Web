@@ -6,7 +6,7 @@ import swal from "sweetalert";
 export default function Kontak() {
     const handleClick = () => {
         swal("Are you sure?", {
-            dangerMode: true,
+            successMode: true,
             buttons: true,
         }).then((isConfirmed) => {
             if (isConfirmed) {
@@ -49,7 +49,7 @@ export default function Kontak() {
 
                 <div className="flex flex-col md:flex-row gap-20 mx-auto lg:-mt-1 md:pt-20 md:gap-10 lg:px-3 md:justify-between">
 
-                    <div className="flex-col gap-8 md:-mt-[66px] px-10 lg:px-2 md:-ml-3 lg:mx-10 md:w-1/2">
+                    <div className="flex-col gap-8 md:-mt-[66px] px-7 lg:px-2 md:-ml-3 lg:mx-10 md:w-1/2">
                         {/* Konten Kolom Pertama */}
                         <ul className="justify-start items-center gap-5 inline-flex mb-4 lg:gap-x-10">
                             <li className="justify-start items-start flex">
@@ -88,28 +88,28 @@ export default function Kontak() {
                         </ul>
                     </div>
 
-                    <div className="text-base text-[#3A3B41B2] tracking-wide p-10 -mt-24 mx-auto md:p-3 md:mr-3  md:-mt-20 lg:-ml-[200px] lg:px-8 ">
+                    <div className="text-base text-[#3A3B41B2] tracking-wide -mt-10 mx-auto md:p-3 md:mr-3  md:-mt-20 lg:-ml-[200px] lg:px-8 ">
                         {/* Konten Kolom Kedua */}
-                        <ul className="pb-5 border-[#54BAEB] rounded-[8px] mx-auto">
-                            <li className="py-1 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
+                        <ul className="pb-5 border-[#54BAEB] rounded-[8px]">
+                            <li className="py-1 border-2 pl-4 w-[260px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
                                 <input type="text" className="w-full outline-none bg-transparent text-[#16215D] text-xs" placeholder="Nama Anda*" />
                             </li>
                         </ul>
 
                         <ul className="pb-5 pt-3 border-[#54BAEB] rounded-[8px]">
-                            <li className="py-1 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
+                            <li className="py-1 border-2 pl-4 w-[260px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
                                 <input type="text" className="w-full outline-none bg-transparent text-[#16215D] text-xs" placeholder="Email Anda*" />
                             </li>
                         </ul>
 
                         <ul className="pb-5 pt-3 border-[#54BAEB] rounded-[8px]">
-                            <li className="py-1 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
+                            <li className="py-1 border-2 pl-4 w-[260px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px]">
                                 <input type="text" className="w-full outline-none bg-transparent text-[#16215D] text-xs" placeholder="Nomor Telepon" />
                             </li>
                         </ul>
 
                         <ul className="pb-5 pt-3 border-[#54BAEB] rounded-[8px]">
-                            <li className="py-1 border-2 pl-4 w-[240px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px] h-56">
+                            <li className="py-1 border-2 pl-4 w-[260px] md:w-[280px] lg:w-[600px] border-[#54BAEB] rounded-[8px] h-56">
                                 <textarea
                                     className="w-full h-52 outline-none bg-transparent text-[#16215D] resize-y pr-2 text-xs"
                                     placeholder="Pesan Anda*"
@@ -118,7 +118,7 @@ export default function Kontak() {
                         </ul>
 
                         <ul className="pb-5 pt-3">
-                            <button onClick={handleClick} className="py-2 border-2 pl-4 w-[240px] md:w-[285px] lg:w-[600px] bg-[#619AEF] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs lg:text-sm">
+                            <button onClick={handleClick} className="py-2 border-2 pl-4 w-[260px] md:w-[285px] lg:w-[600px] bg-[#619AEF] text-white rounded-[8px] text-center hover:bg-[#16215D] text-xs lg:text-sm">
                                 Kirim Pesan
                             </button>
                         </ul>

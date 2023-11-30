@@ -98,7 +98,7 @@ export default function Navbar() {
 
                         <div className="flex flex-col justify-center items-center mt-5">
                             <Link href="/PPDB" onClick={handleSmallerScreenNavigation}>
-                                <button className="bg-[#30396E] text-white hover:bg-[#619AEF] rounded-full uppercase font-bold py-4 w-[150px] mb-5">PPDB</button>
+                                <button className="bg-[#30396E] text-white hover:bg-[#619AEF] rounded-full uppercase font-bold py-3 w-[120px] mb-5">PPDB</button>
                             </Link>
 
                         </div>
