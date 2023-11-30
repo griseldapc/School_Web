@@ -32,7 +32,7 @@ export default function Galeri() {
 
                 {/* Dokumentasi */}
                 <div className="pt-24 text-center items-center justify-center text-[#16215D] lg:mt-8">
-                    <h1 className="font-bold text-2xl lg:text-[40px] md:text-4xl lg:font-extrabold">Dokumentasi Sekolah</h1>
+                    <h1 className="font-extrabold text-2xl lg:text-[40px] md:text-4xl">Dokumentasi Sekolah</h1>
                 </div>
 
                 {/* Card */}
